@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 Just this, then bed.
 
-I've been sleeping irregularly lately. Waking up too early at best, in the middle of the night at worst. A past girlfrient would've told me I've been 'activated'. Myself, I blame it on stress. Self-induced stress.
+I've been sleeping irregularly lately. Waking up too early at best, in the middle of the night at worst. A past girlfriend would've told me I've been 'activated'. Myself, I blame it on stress. Self-induced stress.
 
 It started with last year's [Advent of Code](http://adventofcode.com). A colleague mentioned it, said I should give it a go. I shrugged, gave it a half-hearted go, and was hooked. There's no crack of dawn during winter in Norway, just darkness, but I was up all the same, eagerly awaiting the day's puzzles, not finding rest until they were done. I relished the challenges, to use my brain for something _real_ for a change (although really, it wasn't _that_ real), instead of just generating `if`s and `else`s for a living.
 

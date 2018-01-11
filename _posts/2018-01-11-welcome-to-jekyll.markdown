@@ -18,7 +18,7 @@ So I dug out the old code snippets that had been languishing in Dropbox and deci
 
 So since yesterday, there it is, my [Scrapbook](https://github.com/andersblehr/Scrapbook). 
 
-And now this. This site has held nothing but a static 'Hello World' `index.html` file for almost a year. I wanted to do more, but despite my 25 years in the business, I had never done web development. Yes, irrational though it may be, web development intimidated me.
+And now this. This site has held nothing but a static 'Hello World' `index.html` file for almost a year. I wanted to do more, but despite my 25 years in the business, I had never done web development. Yes, irrational though it may sound, web development intimidated me.
 
 But as fate would have it, I interviewed for an iOS gig, got it, and then priorities shifted and they tossed Smarty, Laravel and Ionic at me instead. It's been over 6 months now, and the sticky spider web tangle that is HTML/CSS/JavaScript is much less of a tangle in my head now.
 

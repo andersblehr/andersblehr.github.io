@@ -4,4 +4,4 @@ title: Anders
 permalink: /anders/
 ---
 
-I am Anders. I write code for money. I also have a [website](https://andersblehr.co) (in Norwegian) that sorely needs updating.
+I am [Anders Blehr](https://andersblehr.co). (Yes, that page needs updating.) I write code. I also like to think that I [solve problems](https://www.linkedin.com/in/blehra/).

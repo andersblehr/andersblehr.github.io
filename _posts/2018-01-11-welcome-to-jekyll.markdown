@@ -16,7 +16,7 @@ But my brain kept spinning. I stumbled across [exercism](http://exercism.io) and
 
 So I dug out the old code snippets that had been languishing in Dropbox and decided they needed a promotion. To GitHub, no less. But how? To each snippet its own repository seemed like total overkill. Then I come across [kvz](http://kvz.io)'s [depreciation hack](http://kvz.io/blog/2014/02/21/how-to-deprecate-projects-on-github/), and apart from the fact that I'm not at all ashamed of my old code, it was a perfect fit.
 
-So since yesterday, there it is, my [Scrapbook](https://github.com/andersblehr/Scrapbook). 
+So since yesterday, there it is, my [scrapbook](https://github.com/andersblehr/Scrapbook). 
 
 And now this. This site has held nothing but a static 'Hello World' `index.html` file for almost a year. I wanted to do more, but despite my 25 years in the business, I had never done web development. Yes, irrational though it may sound, web development intimidated me.
 

@@ -13,7 +13,7 @@ It started with last year's [Advent of Code](https://github.com/andersblehr/MyAo
 
 Then Christmas came and went, and with it the puzzles.
 
-But my brain kept spinning. I stumbled across [exercism](http://exercism.io) and installed [Rust](https://en.wikipedia.org/wiki/Rust_(programming_language)). I want to learn Rust. But I also want to pick up LISP again, and Prolog and Smalltalk, all of which I made acquaintance with during my studies a quarter of a century ago, but never since.
+But my brain kept spinning. I stumbled across [exercism](http://exercism.io) and installed [Rust](https://en.wikipedia.org/wiki/Rust_(programming_language)). I want to learn Rust. But I also want to pick up Lisp again, and Prolog and Smalltalk, all of which I made acquaintance with during my studies a quarter of a century ago, but never since.
 
 So I dug out the old code snippets that had been languishing in Dropbox and decided they needed a promotion. To GitHub, no less. But how? To each snippet its own repository seemed like total overkill. Then I came across [kvz](http://kvz.io)'s [depreciation hack](http://kvz.io/blog/2014/02/21/how-to-deprecate-projects-on-github/), and apart from the fact that I'm not at all ashamed of my old code, it was a perfect fit.
 

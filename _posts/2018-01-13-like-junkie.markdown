@@ -9,7 +9,7 @@ But then I'd get a notification.
 
 I like to get things out of the way. I read my emails when I get them, and I clear my app notifications. But when you're not constantly engaged on Facebook, the notifications you get turn into this:
 
-> Bob has shared a photo.
+> Bob has added a new photo.
 
 > Alice has updated their status.
 
@@ -19,10 +19,12 @@ In plain English:
 
 > Don't leave us, we likes you, come back to our [precious](https://youtu.be/Iz-8CSa9xj8) community!
 
-So I closed that incognito tab and locked down the app's permissions, even blocking notifications. It was liberating. Not the momentous, giant burden off my shoulders type of liberating – more like a marked, lasting sense of relief. (Yes. My name is Anders, and I am a [like junkie](https://blogs.tribune.com.pk/story/12410/confessions-of-a-facebook-like-junkie/).)
+So I closed that incognito tab and locked down the app's permissions, even blocking notifications. It was liberating. Not the momentuous, giant burden off my shoulders type of liberating – more like a marked, lasting sense of relief. (Yes. My name is Anders, and I am a [like junkie](https://blogs.tribune.com.pk/story/12410/confessions-of-a-facebook-like-junkie/).)
 
 I went weeks without logging in. The app icon on my phone felt like a relic of the past. And then I wrote [that first post](https://andersblehr.github.io/2018/01/11/just-this.html) – and duly shared it. On Facebook.
 
 I got a few likes. But the number of times I logged in to check for likes, was higher. So this morning I deleted the link from my profile. I'm back on the wagon and it's been 36 hours since my last share.
 
 Think I'll try Twitter for this one.
+
+(Ironically, just this morning I came across an article from _The Atlantic_, headlined [Facebook finally blinks](https://www.theatlantic.com/technology/archive/2018/01/facebook/550376/), in – of all places – my Facebook feed. There may be hope after all.)

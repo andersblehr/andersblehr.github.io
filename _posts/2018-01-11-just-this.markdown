@@ -1,9 +1,7 @@
 ---
 layout: post
 title:  "Just this"
-date:   2018-01-11 21:40:21 +0100
-categories: jekyll update
-redirect_from: "/jekyll/update/2018/01/11/welcome-to-jekyll.html"
+date:   2018-01-11 23:13:00 +0100
 ---
 Just this, then bed.
 

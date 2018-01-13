@@ -17,7 +17,7 @@ I like to get things out of the way. I read my emails when I get them, and I cle
 
 In plain English:
 
-> Don't leave us, we likes you, come back to our [precious](https://youtu.be/Iz-8CSa9xj8) community!
+> Don't leave us. We likes you. Come back to our [precious](https://youtu.be/Iz-8CSa9xj8) community!
 
 So I closed that private tab and locked down Facebook's permissions on my phone, even blocking notifications. It was liberating. Not the momentuous, giant burden off my shoulders type of liberating – more like a marked, lasting sense of relief. (You guessed it. My name is Anders, and I am a [like junkie](https://www.urbandictionary.com/define.php?term=like%20junkie).)
 

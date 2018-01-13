@@ -27,4 +27,4 @@ I got a few likes. But the number of times I logged in to check for likes, was h
 
 Think I'll try Twitter for this one.
 
-(Ironically, just this morning I came across an article from _The Atlantic_, headlined [Facebook finally blinks](https://www.theatlantic.com/technology/archive/2018/01/facebook/550376/), in – of all places – my Facebook feed. There may be hope after all.)
+(Ironically, just this morning I came across an article from _The Atlantic_, headlined [Facebook finally blinks](https://www.theatlantic.com/technology/archive/2018/01/facebook/550376/), in – you guessed it again – my Facebook feed. There may be hope after all.)

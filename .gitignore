@@ -1,4 +1,4 @@
 .ruby-version
 .sass-cache
-Gemfile*
+Gemfile.lock
 _site/

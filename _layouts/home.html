@@ -3,14 +3,22 @@ layout: default
 ---
 
 <div class="home">
-  {%- if page.title -%}
+  {%- if page.title and page.show_title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
   {{ content }}
 
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+  {%- if page.is_alternate -%}
+    {%- assign lists_posts = page.lists_posts -%}
+  {%- else -%}
+    {%- assign lists_posts = site.minima.home_lists_posts -%}
+  {%- endif -%}
+
+  {%- if lists_posts and site.posts.size > 0 -%}
+    {%- if page.suppress_list_title == false -%}
+      <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    {%- endif -%}
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>

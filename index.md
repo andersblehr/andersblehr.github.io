@@ -5,7 +5,7 @@
 layout: home
 ---
 
-I am an independent developer with over 25 years consulting and IT experience. I have worked as a developer, technical architect, solution architect, and have held a number of management roles. Since 2012 I am again working primarily as a developer. In addition to deep technical understanding, my broad background also gives me a keen eye for my customers' organisational and business needs.
+I am an independent developer with over 25 years consulting and IT experience. I have worked as a developer, technical architect, solution architect, project manager, and have held a number of management positions. Since 2012 I am again working primarily as a developer. In addition to deep technical understanding, my broad background also gives me a keen eye for my customers' organisational and business needs.
 
 I am primarily motivated by professional development and prefer to work with organisations that value quality, longevity and predictability, and that actively acquire, adapt and strive to deliver according to proven methodologies and best practices.
 

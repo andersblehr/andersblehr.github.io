@@ -16,7 +16,7 @@
     {%- if is_blog -%}
       {%- assign title = site.minima.blog.title | default: site.title -%}
       {%- if site.minima.home_is_blog == false -%}
-        {%- assign title_link = page.permalink -%}
+        {%- assign title_link = "blog" -%}
       {%- endif -%}
     {%- endif -%}
 

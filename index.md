@@ -9,6 +9,6 @@ I am an independent developer with over 25 years consulting and IT experience. I
 
 I am primarily motivated by professional development and prefer to work with organisations that value quality, longevity and predictability, and that actively acquire, adapt and strive to deliver according to proven methodologies and best practices.
 
-I am pragmatic when it comes to technology choice: I am analytically strong and have worked with a wide enough variety of technologies over the years to quickly wrap my head around and become productive with new languages, architectures, frameworks and backend/DB systems.
+I am pragmatic when it comes to technology choice: I am analytically strong and have worked with a wide enough variety of technologies over the years to quickly wrap my head around and become productive with new languages, architectures, frameworks, backend systems and databases.
 
 My resume is [here](https://andersblehr.co/cv.pdf) (only in Norwegian for the time being).

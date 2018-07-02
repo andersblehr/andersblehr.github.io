@@ -11,4 +11,4 @@ I am primarily motivated by professional growth and thus prefer to work with org
 
 I am pragmatic when it comes to technology choice: I am analytically strong and have worked with a wide enough variety of technologies over the years to quickly wrap my head around and become productive with new languages, architectures, frameworks, backend systems and databases.
 
-My resume is [here](https://andersblehr.co/cv.pdf) (only in Norwegian for the time being).
+My resume is [here](https://andersblehr.co/cv.pdf) (in Norwegian only for the time being, until this site is up to par).

@@ -2,6 +2,18 @@
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
+    {%- assign description = site.description -%}
+    {%- assign is_blog = false -%}
+
+    {%- if page.name == "index.md" -%}
+      {%- assign is_blog = site.minima.home_is_blog -%}
+    {%- elsif page.name == "blog.md" or page.is_post -%}
+      {%- assign is_blog = true -%}
+    {%- endif -%}
+
+    {%- if is_blog -%}
+      {%- assign description = site.minima.blog.description | default: site.description -%}
+    {%- endif -%}
 
     {%- if site.minima.show_footer_heading -%}
       <h2 class="footer-heading">{{ site.title | escape }}</h2>
@@ -18,7 +30,7 @@
             {%- endif -%}
             </li>
             {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+              <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
         </ul>
       </div>
@@ -28,19 +40,7 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        {%- if page.is_post -%}
-          {%- if site.minima.home_lists_posts -%}
-            <p>{{- site.description | escape -}}</p>
-          {%- else -%}
-            <p>{{- site.minima.alternate.description | escape -}}</p>
-          {%- endif -%}
-        {%- else -%}
-          {%- if page.is_alternate -%}
-            <p>{{- site.minima.alternate.description | escape -}}</p>
-          {%- else -%}
-            <p>{{- site.description | escape -}}</p>
-          {%- endif -%}
-        {%- endif -%}
+        <p>{{- description | escape -}}</p>
       </div>
     </div>
 

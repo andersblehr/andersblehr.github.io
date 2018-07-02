@@ -3,20 +3,24 @@
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
+    {%- assign title = site.title -%}
+    {%- assign title_link = "/" -%}
+    {%- assign is_blog = false -%}
+  
+    {%- if page.name == "index.md" -%}
+      {%- assign is_blog = site.minima.home_is_blog -%}
+    {%- elsif page.name == "blog.md" or page.is_post -%}
+      {%- assign is_blog = true -%}
+    {%- endif -%}
 
-    {%- if page.is_post -%}
-      {%- if site.minima.home_lists_posts -%}
-        <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-      {%- else -%}
-        <a class="site-title" rel="author" href="{{ site.minima.alternate.baseurl | relative_url }}">{{ site.minima.alternate.title | escape }}</a>
-      {%- endif -%}
-    {%- else -%}
-      {%- if page.is_alternate -%}
-        <a class="site-title" rel="author" href="{{ site.minima.alternate.baseurl | relative_url }}">{{ site.minima.alternate.title | escape }}</a>
-      {%- else -%}
-        <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    {%- if is_blog -%}
+      {%- assign title = site.minima.blog.title | default: site.title -%}
+      {%- if site.minima.home_is_blog == false -%}
+        {%- assign title_link = "blog" -%}
       {%- endif -%}
     {%- endif -%}
+
+    <a class="site-title" rel="author" href="{{ title_link | relative_url }}">{{ title | escape }}</a>
 
     {%- if page_paths -%}
       <nav class="site-nav">
@@ -32,7 +36,7 @@
         </label>
 
         <div class="trigger">
-          {%- if page.is_alternate or page.is_post -%}
+          {%- if is_blog -%}
             <a class="page-link" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
           {%- else -%}
             {%- for path in page_paths -%}

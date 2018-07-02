@@ -9,13 +9,15 @@ layout: default
 
   {{ content }}
 
-  {%- if page.is_alternate -%}
-    {%- assign lists_posts = page.lists_posts -%}
+  {%- if page.name == "index.md" -%}
+    {%- assign is_blog = site.minima.home_is_blog -%}
+  {%- elsif page.name == "blog.md" -%}
+    {%- assign is_blog = true -%}
   {%- else -%}
-    {%- assign lists_posts = site.minima.home_lists_posts -%}
+    {%- assign is_blog = false -%}
   {%- endif -%}
 
-  {%- if lists_posts and site.posts.size > 0 -%}
+  {%- if is_blog and site.posts.size > 0 -%}
     {%- if page.suppress_list_title == false -%}
       <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     {%- endif -%}

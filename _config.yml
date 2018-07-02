@@ -17,7 +17,7 @@ title: Anders Blehr
 author: Anders Blehr
 email: anders@andersblehr.co
 description: >- 
-  Fixing problems by distilling them to their core.
+  Solving problems by distilling to their core.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: andersblehr
@@ -36,13 +36,12 @@ plugins:
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
   date_format: "%-d %B %Y"
-  home_lists_post: false
+  home_is_blog: false
   show_footer_heading: false
-  alternate: # Settings for alternate site (e.g., a blog)
+  blog: # Optional settings for blog page
     title: Dalwhinnie past bedtime
     description: >-
       Here we are. Dalwhinnie past bedtime. Just need to get this working.
-    baseurl: "blog"
 
 # Defaults for additional frontmatter settings
 defaults:
@@ -51,8 +50,6 @@ defaults:
       type: "pages"
     values:
       show_title: true
-      is_alternate: false
-      lists_posts: false
       suppress_list_title: false
   - scope:
       path: ""

@@ -3,7 +3,7 @@ layout: post
 title:  "Under construction"
 date:   2018-07-03 20:50:00 +0100
 ---
-I've been revising the structure of this site lately. Extending the [Minima theme](https://github.com/jekyll/minima) so that [the blog](https://andersblehr.github.io/blog) can have a separate page, title and description from the [landing page](https://andersblehr.github.io). Instead of just molding it for my own purposes, I've effectively created a customisable feature that incidentally gives me what I want.
+I've been revising the structure of this site lately. Extending the [Minima theme](https://github.com/jekyll/minima) so that the [blog](https://andersblehr.github.io/blog) can have a separate page, title and description from the [landing page](https://andersblehr.github.io). Instead of just molding it for my own purposes, I've effectively created a customisable feature that incidentally gives me what I want.
 
 I might even submit a pull request, who knows.
 

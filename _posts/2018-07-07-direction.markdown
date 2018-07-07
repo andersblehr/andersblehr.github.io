@@ -3,7 +3,7 @@ layout: post
 title:  "Direction"
 date:   2018-07-07 21:30:00 +0100
 ---
-I have a dedicated desktop on my Mac with a number of editors open for personal projects. There's a VSCode instance where I'm typing this now and also [bend Minima to my will](https://andersblehr.github.io/under-construction/), and another where I've done 47 [Haskell Exercism exercises](http://exercism.io/andersblehr). It's been almost a month since my last submission, but I keep it open: despite a realisation that Exercism is good for dipping your toes, but not for real learning, I enjoyed Haskell's mathematic rigour and perfect execution once I'd 'beaten the compiler'.
+I have a dedicated desktop on my Mac with a number of editors open for personal projects. There's a VSCode instance where I'm typing this now and also [bend Minima to my will](https://andersblehr.github.io/under-construction/), and another where I've done 47 [Haskell Exercism exercises](http://exercism.io/andersblehr). It's been almost a month since my last submission, but I keep it open: despite realising that Exercism is good for dipping your toes, but not for real learning, I enjoy Haskell's mathematic rigour and perfect execution once I've 'beaten the compiler'.
 
 (A tiny bird keeps whispering that the academic route might have been a better fit for me than the long and winding road that's taken me to this moment. It's too late now anyway. This is the road.)
 

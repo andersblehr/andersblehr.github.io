@@ -9,7 +9,7 @@
   
     {%- if page.name == "index.md" -%}
       {%- assign is_blog = site.minima.home_is_blog -%}
-    {%- elsif page.name == "blog.md" or page.is_post -%}
+    {%- elsif page.name contains "blog.md" or page.is_post -%}
       {%- assign is_blog = true -%}
     {%- endif -%}
 

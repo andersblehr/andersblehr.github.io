@@ -11,7 +11,7 @@ I also have a some old documents open that detail the inner workings of the [rul
 
 Then on my work desktop one three-finger-swipe to the left I have PhpStorm and Toad for Oracle (the latter in a Windows VM) open on a project I'm doing for my current client. I've made headway these past few days and it's shaping up. I feel something resembling pride.
 
-For I'm doing the full, deep stack for this. All the way from vector graphics in Sketch, through Laravel Blade templates made lively with CSS and JS, via a REST API that over OCI8 talks to the beast that is Oracle, where I do DBA work and write PL/SQL procedures. The site also interfaces with a set of third party REST endpoints, where there's an intricate OAuth2, redirection and cross-site JS dance going on.
+For I'm doing the full, deep stack for this. All the way from vector graphics in Sketch, through Laravel Blade templates made lively with CSS and JS, via a REST API that over OCI8 talks to the beast that is Oracle, where I set up tables and write PL/SQL procedures to serve the requests. The site also interfaces with a set of third party REST endpoints, where there's an intricate OAuth2, redirection and cross-site JS dance going on.
 
 It's been quite the quilt to weave, but when all the pieces decide to finally come together and play nice – as they nearly do now – it can feel almost like a symphony.
 

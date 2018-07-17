@@ -3,7 +3,7 @@ layout: post
 title:  "Under construction"
 date:   2018-07-03 20:50:00 +0100
 ---
-I've been revising the structure of this site lately. Extending the [Minima theme](https://github.com/jekyll/minima) so that the [blog](https://andersblehr.github.io/blog) can have a separate page, title and description from the [landing page](https://andersblehr.github.io). Instead of just molding it for my own purposes, I've effectively created a customisable feature that incidentally gives me what I want.
+I've been revising the structure of this site lately. Extending the [Minima theme](https://github.com/jekyll/minima) so that the [blog](/blog) can have a separate page, title and description from the [landing page](/). Instead of just molding it for my own purposes, I've effectively created a customisable feature that incidentally gives me what I want.
 
 I might even submit a pull request, who knows.
 
@@ -13,7 +13,7 @@ But then I come to a point where I just begin. I create a branch, tweak some lin
 
 And on the way down, I generalise, abstract, featurise.
 
-[So now](https://andersblehr.github.io/just-this/), this.
+[So now](/just-this), this.
 
 But it's not just this site that's under construction. I am as well. Have been, for the past almost ten years. I'm 51 and am constantly questioning everything. I'm just beginning to get to grips with who I am, what I want, what drives me. What my [craft](https://github.com/andersblehr/Scrapbook) is.
 

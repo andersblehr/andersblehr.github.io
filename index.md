@@ -15,4 +15,4 @@ In addition to deep technical understanding, my broad background also gives me a
 
 I am primarily motivated by professional growth and thus prefer to work with organisations that value quality, longevity and predictability, and that actively acquire, adapt and strive to deliver according to proven methodologies and best practices.
 
-My resume is [here](https://andersblehr.co/cv.pdf) (in Norwegian only for the time being, until this site is up to par).
+My resume is [here](/resume).

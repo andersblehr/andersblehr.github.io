@@ -77,8 +77,8 @@ To enable users to mirror each other's contact information, the app (iOS only) a
 
 #### 2010-2012: Senior Program Manager
 
-asdasd asd asd asd asd
+I'm working my way back in time, please come back later :)
 
 #### 2008-2010: Senior Development Lead
 
-asd asd as er wsg sdf weras as
+I'm working my way back in time, please come back later :)

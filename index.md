@@ -13,6 +13,6 @@ I am pragmatic when it comes to technology choice: I am analytically strong and 
 
 In addition to deep technical understanding, my broad background also gives me a keen eye for my customers' organisational and business needs.
 
-I am primarily motivated by professional growth and thus prefer to work with organisations that value quality, longevity and predictability, and that actively acquire, adapt and strive to deliver according to proven methodologies and best practices.
+I am primarily motivated by professional growth and thus prefer to work with organisations and individuals who don't just jump on the latest bandwagon, but instead value quality, longevity and predictability, and that actively acquire, adapt and strive to deliver according to proven methods and best practices.
 
 My resume is [here](/resume).

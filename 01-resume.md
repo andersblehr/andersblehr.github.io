@@ -11,7 +11,7 @@ permalink: resume
 
 ## Work experience
 
-### Independent developer (2016-present)
+### Independent developer &sdot; 2016-present
 
 #### 2017-present: [Telia Norge](https://en.wikipedia.org/wiki/Telia_Norge)
 
@@ -47,13 +47,13 @@ I work with the OCMC Systems group, which develops, maintains and operates web &
 I only took part in the initial MVP phase of this <u>augmented reality concept for product marketing</u>, but the serverless architecture and most of the code I wrote made it through to the final product.
 
 * **iOS app\* for augmented reality enhanced product marketing:** The app fetches campaign locations based on the user's current location and lays them out in an interactive, MapBox based map, launching an <u>augmented reality game</u> (implemented in JavaScript\*, bridged via the Wikitude iOS SDK) when the user gets close enough to a location, incrementally persisting the current game status back to the backend, accumulating points and prizes.
-* **Serverless REST API:** I <u>defined the data model</u>, <u>set up separate development and production tables on AWS DynamoDB</u>, <u>set up staged serverless AWS Lambda instances</u> and wrote a versioned Lambda handler in Python that based on the resource path of an incoming REST request branches out to separate Python modules that handle basic CRUD operations for individual data entities, and also <u>supports optional sideloading of partial or full object graphs</u> rooted at the requested entity or entities. To tie it all together, I <u>documented the corresponding REST endpoints</u> in Swagger and shared them with the team via Apiary, <u>set up staged, endpoint agnostic AWS API Gateway instances and hooked them up to the corresponding AWS Lambda handlers</u>.
+* **Serverless REST API:** I <u>defined the data model</u>, <u>set up separate development and production tables on AWS DynamoDB</u>, <u>set up staged serverless AWS Lambda instances</u> and wrote a versioned Lambda handler in Python that based on the resource path of an incoming REST request branches out to separate Python modules that handle basic CRUD operations for individual data entities, and also supports <u>optional sideloading of partial or full object graphs</u> rooted at the requested entity or entities. To tie it all together, I documented the corresponding <u>REST endpoints in Swagger</u> and shared them with the team via Apiary, <u>set up staged, endpoint agnostic AWS API Gateway instances and hooked them up to the corresponding AWS Lambda handlers</u>.
 * **Single-page campaign management console:** I <u>wrote a management console</u> in Angular 2+, <u>hosted on AWS S3</u>, that over the same REST API that the app uses <u>lets campaign managers create, update and delete campaigns</u> and locations available for gameplay.
 * **Utilities and libraries:** I wrote a suite of Python and Bash <u>scripts to manage the DynamoDB and Lambda handler instances and deploy to AWS</u> over the AWS CLI, and <u>in my own time I wrote and open sourced</u> a Swift [JSON caching library](https://github.com/andersblehr/JSONCache) that the app utilises to cache data locally (in part based on the replication engine I built for Origon; see below), as well as a [random test data generator](https://github.com/andersblehr/dyndb_random) for DynamoDB tables that I used to generate dummy campaign data during development.
 
 <small><em>* An identical Android app, as well as the shared augmented reality world, were implemented by another team member.</em></small>
 
-### [Origon](https://origon.co) (2012-2016)
+### Origon &sdot; 2012-2016
 
 > ###### Original idea, all UX, design & development\*
 > * **Infrastructure:** iOS, REST, Google App Engine
@@ -64,20 +64,54 @@ I only took part in the initial MVP phase of this <u>augmented reality concept f
 > * **Tools:** Git, Xcode, Eclipse, Google Plugin for Eclipse, Maven, iTunes Connect, TestFlight
 > * **Method:** Continuous refactoring :)
 
-The unifying idea behind this app for <u>shared contact lists</u> ([full feature set](https://origon.co)) is <u>per list data replication</u>: I maintain and give you access to my contact information, and you maintain and give me access to yours. This way, our shared contact lists stay up to date.
+The unifying idea behind this app (iOS only) for <u>shared contact lists</u> ([full feature set](https://origon.co)) is <u>per list data replication</u>: I maintain and give you access to my contact information, and you maintain and give me access to yours. This way, our shared contact lists stay up to date.
 
-To enable users to mirror each other's contact information, <u>the app (iOS only) and the backend together constitute a replication framework</u> that seemlessly persists changes from indvidual users and pushes those same changes back out to linked users.
+To enable users to mirror each other's contact information, <u>the app and the backend together constitute a replication framework</u> that seemlessly persists changes from indvidual users and pushes those same changes back out to linked users.
 
 The app is implemented in Objective-C ([code](https://github.com/andersblehr/Origon)), while the backend, implemented in Java ([code](https://github.com/andersblehr/OrigonBackend)), runs serverlessly on Google App Engine and utilises RESTEasy for the replication API and Objectify for object graph persistence in Google Cloud Datastore.
 
 <small><em>\* I no longer maintain Origon, but it's still [available](https://itunes.apple.com/us/app/origon-shared-contact-lists/id988915565) in the App Store, which it will continue to be until it stops working.</em></small>
 
-### Microsoft (2008-2012)
+### Microsoft Development Center Norway &sdot; 2008-2012
 
 #### 2010-2012: Senior Program Manager
 
-I'm working my way back in time, please come back later :)
+> ###### Feature owner, Distributed Topology & Backup/Restore, SharePoint Search 2013
+> * **Infrastructure:** Windows Server, SharePoint, .NET, WCF/SOAP
+> * **Languages:** C#, Java
+> * **Framework:** .NET
+> * **Database:** SQL Server
+> * **Standards & formats:** HTTP, SOAP, WSDL, XML
+> * **Tools:** Git, Visual Studio, PowerShell, SharePoint, Product Studio (internal bug tracker), Excel, Remote Desktop
+> * **Methods:** Scrum, TDD
+
+For Search in SharePoint 2013, FAST's <u>next generation search</u>, which had been under development for a few years prior to the acquisition, was <u>ported from Java to .NET and C# and adapted as a SharePoint Service Application</u>, to replace the search options built for SharePoint 2010. I was <u>feature owner for topology management and scaling</u> (provisioning, enablement, disablement and removal of search nodes in the distributed search architecture, and distribution of search components among nodes) and <u>backup & restore of distributed search indices across topologies</u>.
+
+For this, I worked with the local development and test disciplines, and in addition <u>managed a remote team of 10-15 developers and testers</u> in Colombo, Sri Lanka.
 
 #### 2008-2010: Senior Development Lead
+
+> ###### Development lead, Search Core, FAST Search Server 2010 for SharePoint
+> * **Infrastructure:** Windows Server, Linux, SharePoint, .NET, WCF/SOAP, IP sockets
+> * **Languages:** C++, C#, Python
+> * **Framework:** .NET
+> * **Database:** SQL Server
+> * **Standards & formats:** HTTP, SOAP, WSDL, XML
+> * **Tools:** Git, Visual Studio, SharePoint, Product Studio (internal bug tracker), Excel, Remote Desktop
+> * **Methods:** Scrum, TDD
+
+The Office 2010 wave was nearly halfway to completion when <u>Microsoft acquired FAST in 2008</u>, which effectively meant that we had less than two years to <u>integrate organisationally</u>, identify and <u>remediate any non-compliant use of open source software</u>, and develop and <u>ship an integrated search solution as part of SharePoint 2010</u>.
+
+I <u>lead a team of highly skilled and fiercely independent developers</u> who had been working on the search core since the very early days of FAST. They were apprehensive about the acquisistion and what it would mean for them and their code, but they put their doubts aside and did their utmost to <u>make the the search core pluggable as a SharePoint Service Application</u>.
+
+In the period leading up to code freeze ahead of release, I was <u>part of the management group that conducted daily bug triages</u> for the overall FAST team. I also <u>defended bugfixes in the Office-wide bug triage in Redmond</u>, among which was a group of <u>fixes for a ship/no-ship performance issue that it had taken us weeks of profiling and analysis to narrow down</u>.
+
+### Fast Search & Transfer (FAST) &sdot; 2005-2008
+
+#### 2007-2008: Director, Solutions Architecture Centre EMEA
+
+I'm working my way back in time, please come back later :)
+
+#### 2005-2007: Senior Solutions Architect
 
 I'm working my way back in time, please come back later :)

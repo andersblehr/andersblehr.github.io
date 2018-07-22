@@ -74,31 +74,22 @@ The app is implemented in Objective-C ([code](https://github.com/andersblehr/Ori
 
 ### Microsoft Development Center Norway &sdot; 2008-2012
 
-#### 2010-2012: Senior Program Manager
-
-> ###### Feature owner, Distributed Topology & Backup/Restore, SharePoint Search 2013
-> * **Infrastructure:** Windows Server, SharePoint, .NET, WCF/SOAP
-> * **Languages:** C#, Java
+> ###### Senior Development Lead, Senior Program Manager
+> * **Infrastructure:** Windows Server, SharePoint, .NET, WCF/SOAP, Linux, IP sockets
+> * **Languages:** C#, C++, Java, Python
 > * **Framework:** .NET
 > * **Database:** SQL Server
 > * **Standards & formats:** HTTP, SOAP, WSDL, XML
 > * **Tools:** Git, Visual Studio, PowerShell, SharePoint, Product Studio (internal bug tracker), Excel, Remote Desktop
 > * **Methods:** Scrum, TDD
 
+#### 2010-2012: Senior Program Manager
+
 For Search in SharePoint 2013, FAST's <u>next generation search</u>, which had been under development for a few years prior to the acquisition, was <u>ported from Java to .NET and C# and adapted as a SharePoint Service Application</u>, to replace the search options built for SharePoint 2010. I was <u>feature owner for topology management and scaling</u> (provisioning, enablement, disablement and removal of search nodes in the distributed search architecture, and distribution of search components among nodes) and <u>backup & restore of distributed search indices across topologies</u>.
 
 For this, I worked with the local development and test disciplines, and in addition <u>managed a remote team of 10-15 developers and testers</u> in Colombo, Sri Lanka.
 
 #### 2008-2010: Senior Development Lead
-
-> ###### Development lead, Search Core, FAST Search Server 2010 for SharePoint
-> * **Infrastructure:** Windows Server, Linux, SharePoint, .NET, WCF/SOAP, IP sockets
-> * **Languages:** C++, C#, Python
-> * **Framework:** .NET
-> * **Database:** SQL Server
-> * **Standards & formats:** HTTP, SOAP, WSDL, XML
-> * **Tools:** Git, Visual Studio, SharePoint, Product Studio (internal bug tracker), Excel, Remote Desktop
-> * **Methods:** Scrum, TDD
 
 The Office 2010 wave was nearly halfway to completion when <u>Microsoft acquired FAST in 2008</u>, which effectively meant that we had less than two years to <u>integrate organisationally</u>, identify and <u>remediate any non-compliant use of open source software</u>, and develop and <u>ship an integrated search solution as part of SharePoint 2010</u>.
 

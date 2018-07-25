@@ -3,7 +3,7 @@ layout: post
 title:  "Direction"
 date:   2018-07-07 21:30:00 +0100
 ---
-I have a number of editors open on my Mac. There's the VSCode instance where I type this and recently [bent Minima to my will](/under-construction), and another where I've done close to 50 Haskell [Exercism exercises](http://exercism.io/andersblehr). (It's been almost a month since I last submitted a solution, but I keep it open: I enjoy Haskell's mathematic rigour and delightfully perfect execution once I've 'beaten the compiler'.)
+I have a number of editors open on my Mac. There's the VSCode instance where I type this and recently [bent Minima to my will](/under-construction), and another where I've done close to 50 Haskell [Exercism exercises](http://exercism.io/andersblehr). (It's been almost a month since I last submitted a solution, but I keep it open: I enjoy Haskell's mathematic rigour and delightfully perfect execution once I've 'beaten' the compiler.)
 
 I also have the code for my app [Origon](https://github.com/andersblehr/Scrapbook#origon---shared-contact-lists-2015) open in Xcode, as well as in Eclipse for the Java backend. I haven't touched either code base in over a year, and I probably won't again. But there's gold buried there: I'm pretty sure the replication and caching engine that seamlessly mirrors updates between users and devices would be useful for others out there.
 

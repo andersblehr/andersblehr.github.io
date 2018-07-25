@@ -43,20 +43,13 @@ li {
   width: auto;
   overflow: hidden;
 
-  div {
-    display: block;
-    width: 50%;
-  }
-
-  a {
-    display: block;
+  .prev {
     width: 50%;
     float: left;
-    margin: 1em 0;
   }
   
   .next {
-    text-align: right;
+    float: right;
   }
 }
 

@@ -38,6 +38,28 @@ li {
   margin-bottom: 1.5rem;
 }
 
+.page-navigation {
+  display: block;
+  width: auto;
+  overflow: hidden;
+
+  div {
+    display: block;
+    width: 50%;
+  }
+
+  a {
+    display: block;
+    width: 50%;
+    float: left;
+    margin: 1em 0;
+  }
+  
+  .next {
+    text-align: right;
+  }
+}
+
 .post-content {
   h1, h2, h3, h4 {
     margin-top: 1.3rem;

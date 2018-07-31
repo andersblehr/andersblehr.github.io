@@ -53,7 +53,17 @@
   li {
     margin-bottom: 0.2rem;
   }
-  
+
+  a:not(href) {
+    cursor: pointer;
+  }
+/*
+  .collapse-above:not(.hidden) {
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+  }
+*/
   .summary-box {
     color: #585858;
     background-color: #f8f8f8;
@@ -96,4 +106,8 @@
   .next {
     float: right;
   }
+}
+
+.hidden {
+  display: none;
 }

@@ -28,6 +28,7 @@ permalink: resume
 * **Methods:** Agile, Kanban, TDD, BDD
 </div>
 
+{% capture content %}
 I work with the OCMC Systems group, which develops, maintains and operates web & customer portals, mobile apps and internal CRM systems for Telia's [OneCall](https://onecall.no) and [MyCall](https://mycall.no) brands. Key accomplishments:
 
 * **Chief architect, lead developer and advisor to project management** on upcoming market offering, MyCall: I <u>architected the overall solution</u> and have been the <u>lead (and mostly sole) developer</u>, covering frontend (PHP/Laravel, JavaScript, CSS/Sass), user authentication and authorisation (OAuth2), service layer (REST, PHP/Laravel, OCI8), data modeling and stored procedures (Oracle, PL/SQL), and third party vendor integration (OAuth2, REST).
@@ -36,6 +37,8 @@ I work with the OCMC Systems group, which develops, maintains and operates web &
 * **Lead deployment engineer** for new production and staging environments, OneCall & MyCall: I <u>set up new production and staging servers</u> (CentOS 7.5, Apache 2.4, PHP 7.2, OCI8 and other dependencies), deployed, verified and – if required – <u>made compatibility updates to all production sites</u> (as well as key staging sites) before go-live.
 * **Cross-brand improvement activities:** Among other things, I have worked to <u>reduce functional overlap and minimise gaps</u> in the service layers by better aligning them with [RESTful principles](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design); to <u>improve code quality</u> by elevating the PR approval process from a formality to a fruitful dialogue between peers, and by incorporating existing test suites into CI builds; and to <u>reduce setup costs of doing local development</u> by creating a set of lean, Xdebug-enabled Docker development containers.
 * **Cross-brand feature development and maintenance:** Additionally, I have done general <u>troubleshooting, bugfixing and development</u> of small to medium features and offerings across web, apps, service layers, and databases.
+{% endcapture %}
+{% include expandable.html content=content %}
 
 #### 2016-2017: [Norgesjakten](https://itunes.apple.com/us/app/norgesjakten/id1230397632)
 
@@ -50,6 +53,7 @@ I work with the OCMC Systems group, which develops, maintains and operates web &
 * **Method:** MVP
 </div>
 
+{% capture content %}
 I only took part in the initial MVP phase of this <u>augmented reality concept for product marketing</u>, but the serverless architecture and most of the code I wrote made it through to the final product.
 
 * **iOS\* app for augmented reality enhanced product marketing:** The app fetches campaign locations based on the user's current location and lays them out in an interactive, MapBox based map, launching an <u>augmented reality game</u> (implemented in JavaScript\*, bridged via the Wikitude iOS SDK) when the user gets close enough to a location, incrementally persisting the current game status back to the backend, accumulating points and prizes.
@@ -58,6 +62,8 @@ I only took part in the initial MVP phase of this <u>augmented reality concept f
 * **Utilities and libraries:** I wrote a suite of Python and Bash <u>scripts to manage the DynamoDB and Lambda handler instances and deploy to AWS</u> over the AWS CLI, and <u>in my own time I wrote and open sourced</u> a Swift [JSON caching library](https://github.com/andersblehr/JSONCache) that the app utilises to cache data locally (in part based on the replication engine I built for Origon; see below), as well as a [random test data generator](https://github.com/andersblehr/dyndb_random) for DynamoDB tables that I used to generate dummy campaign data during development.
 
 <small><em>* An identical Android app, as well as the shared augmented reality world, were implemented by another team member.</em></small>
+{% endcapture %}
+{% include expandable.html content=content %}
 
 ### Origon &sdot; 2012-2016
 
@@ -72,6 +78,7 @@ I only took part in the initial MVP phase of this <u>augmented reality concept f
 * **Method:** Continuous refactoring :)
 </div>
 
+{% capture content %}
 The unifying idea behind this app (iOS only) for <u>shared contact lists</u> ([full feature set](https://origon.co)) is <u>per list data replication</u>: I maintain and give you access to my contact information, and you maintain and give me access to yours. This way, our shared contact lists stay up to date.
 
 To enable users to mirror each other's contact information, <u>the app and the backend together constitute a replication framework</u> that seemlessly persists changes from indvidual users and pushes those same changes back out to linked users.
@@ -79,6 +86,8 @@ To enable users to mirror each other's contact information, <u>the app and the b
 The app is implemented in Objective-C ([code](https://github.com/andersblehr/Origon)), while the backend, implemented in Java ([code](https://github.com/andersblehr/OrigonBackend)), runs serverlessly on Google App Engine and utilises RESTEasy for the replication API and Objectify for object graph persistence in Google Cloud Datastore.
 
 <small><em>\* I no longer maintain Origon, but it's still [available](https://itunes.apple.com/us/app/origon-shared-contact-lists/id988915565) in the App Store, which it will continue to be until it stops working.</em></small>
+{% endcapture %}
+{% include expandable.html content=content %}
 
 ### Microsoft Development Center Norway &sdot; 2008-2012
 
@@ -93,6 +102,7 @@ The app is implemented in Objective-C ([code](https://github.com/andersblehr/Ori
 * **Methods:** Scrum, TDD
 </div>
 
+{% capture content %}
 <u>FAST was acquired by Microsoft in 2008</u>, and after a transition period under the name _FAST, a Microsoft Subsidiary_, we became Microsoft Development Center Norway, an integral part of the Microsoft Office organisation.
 
 #### 2010-2012: Senior Program Manager
@@ -108,6 +118,8 @@ The Office 2010 wave was nearly halfway to completion when Microsoft acquired FA
 I <u>lead a team of highly skilled and fiercely independent developers</u> who had been working on the search core since the very early days of FAST. They were apprehensive about the acquisistion and what it would mean for them and their code, but they put their doubts aside and did their utmost to <u>make the the search core pluggable as a SharePoint Service Application</u>.
 
 In the period leading up to code freeze ahead of release, I was <u>part of the management group that conducted daily bug triages</u> for the overall FAST team. I also <u>defended bugfixes in the Office-wide bug triage in Redmond</u>, among which was a group of <u>fixes for a ship/no-ship performance issue that it had taken us weeks of profiling and analysis to narrow down</u>.
+{% endcapture %}
+{% include expandable.html content=content %}
 
 ### Fast Search & Transfer (FAST) &sdot; 2005-2008
 
@@ -120,6 +132,7 @@ In the period leading up to code freeze ahead of release, I was <u>part of the m
 * **Tools:** CVS, Emacs, Vim, VNC, SSH tunneling, Confluence, JIRA, Excel
 </div>
 
+{% capture content %}
 #### 2007-2008: Director, Solution Architecture Center EMEA
 
 In addition to <u>following up on ongoing customer projects</u> and <u>driving the work to establish guidelines and best practices</u> for streamlined and repeatable customer installations, I <u>created <em>ESPedia</em>, a Wikipedia-like collection of technical documents</u> ranging from configuration HOWTOs, via the aforementioned guidelines and best practices, to the inner workings of ESP, <u>written and maintained by myself and other FAST engineers</u>, and with read-only access for certified partners. In addition, I <u>developed an Apache Maven plugin to automate as much as possible of the manual, error prone and often repetitive work</u> that was involved in a typical customer installation of ESP.
@@ -129,6 +142,8 @@ In addition to <u>following up on ongoing customer projects</u> and <u>driving t
 FAST's _Enterprise Search Platform_ (ESP) was a <u>complex product</u> with many moving parts <u>running on anything from a single server to clusters of ten or more of servers</u>. I <u>worked with customers across Europe to build tailored search solutions</u>, including the main Yellow Pages sites in France, Austria, the Baltics, and Norway; information & analytics companies (Reed Elsevier, ProQuest), major newspapers (The Financial Times), major retailers (Carrefour), classifieds (Loot), academic institutions (NTNU), as well as government and municipal organisations (UK Department for Work and Pensions, Hereford County Council).
 
 Together with a select group of experienced engineers, I was <u>handpicked to join a newly formed <em>Solution Architecture Center</em></u> within Global Services, whose mandate it was to <u>establish best practices and develop guidelines, support tools and reusable project templates</u> in order to make projects more repeatable from customer to customer.
+{% endcapture %}
+{% include expandable.html content=content %}
 
 ### Accenture &sdot; 2001-2005
 

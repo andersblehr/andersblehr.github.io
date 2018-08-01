@@ -57,13 +57,12 @@
   a:not(href) {
     cursor: pointer;
   }
-/*
-  .collapse-above:not(.hidden) {
-    display: inline-block;
-    text-align: right;
-    width: 100%;
+
+  .collapser:not(.hidden) {
+    float: left;
+    margin-right: 0.3rem;
   }
-*/
+
   .summary-box {
     color: #585858;
     background-color: #f8f8f8;

@@ -4,12 +4,13 @@ title: Resume
 permalink: resume
 ---
 
-<div class="summary-box" markdown="1">
-######  Education: Master of Science, Computer Science (1993)
+{% capture content %}
+###### Education: Master of Science, Computer Science (1993)
 * **Universities:** [Norwegian Institute of Technology](https://en.wikipedia.org/wiki/Norwegian_Institute_of_Technology) (now [NTNU](https://en.wikipedia.org/wiki/Norwegian_University_of_Science_and_Technology)), Trondheim, Norway; thesis written as an ERASMUS exchange student at the [University of Marburg](https://en.wikipedia.org/wiki/University_of_Marburg), Marburg an der Lahn, Germany
 * **Specialisation:** Digital image processing, natural language processing, knowledge based systems
 * **Master's thesis:** [A Software Based Approach to Real-Time Eye Tracking](https://github.com/andersblehr/Scrapbook#masters-thesis-a-software-based-approach-to-real-time-eye-tracking-1993)
-</div>
+{% endcapture %}
+{% include infobox.html content=content %}
 
 ## Work experience
 
@@ -17,16 +18,14 @@ permalink: resume
 
 #### 2017-present: Telia Norge
 
-<div class="summary-box" markdown="1">
-###### Full-stack developer, technical architect, advisor
-* **Infrastructure:** Linux, Apache, PHP-FPM, OCI8, REST
-* **Languages:** PHP, HTML, CSS, JavaScript, PL/SQL, SQL, TypeScript
-* **Frameworks & libraries:** Laravel, Symfony, Smarty, GuzzleHttp, jQuery, Node.js, Vue.js, React, Ionic, Angular
-* **Database:** Oracle
-* **Tools:** Git/BitBucket Server, PhpStorm, Xdebug, Webpack, Gulp, Toad for Oracle, SQL Developer, JIRA, Confluence, Bamboo, Docker, Vagrant, Vim, Xcode, iTunes Connect
-* **Standards & formats:** HTTP, OAuth2, JWT, JSON, CORS
-* **Methods:** Agile, Kanban, TDD, BDD
-</div>
+{% capture content %}
+###### In brief
+* Full-stack developer (web, app, API, backend, DB)
+* Technical architect & advisor
+* Advisor to project management
+* Sysadmin
+{% endcapture %}
+{% include infobox.html content=content %}
 
 {% capture content %}
 I work with the OCMC Systems group, which develops, maintains and operates web & customer portals, mobile apps and internal CRM systems for Telia's [OneCall](https://onecall.no) and [MyCall](https://mycall.no) brands. Key accomplishments:
@@ -40,18 +39,26 @@ I work with the OCMC Systems group, which develops, maintains and operates web &
 {% endcapture %}
 {% include expandable.html content=content %}
 
+{% capture content %}
+* **Languages:** PHP, HTML, CSS, JavaScript, PL/SQL, SQL, TypeScript
+* **Frameworks & libraries:** Laravel, Symfony, Smarty, GuzzleHttp, jQuery, Node.js, Vue.js, React, Ionic, Angular
+* **Infrastructure:** Linux, Apache, PHP-FPM, OCI8, REST
+* **Database:** Oracle
+* **Tools:** Git/BitBucket Server, PhpStorm, Xdebug, Webpack, Gulp, Toad for Oracle, SQL Developer, JIRA, Confluence, Bamboo, Docker, Vagrant, Vim, Xcode, iTunes Connect
+* **Standards & formats:** HTTP, OAuth2, JWT, JSON, CORS
+* **Methods:** Agile, Kanban, TDD, BDD
+{% endcapture %}
+{% include infobox.html content=content %}
+
 #### 2016-2017: [Norgesjakten](https://itunes.apple.com/us/app/norgesjakten/id1230397632)
 
-<div class="summary-box" markdown="1">
-###### Full-stack developer, chief technical architect
-* **Infrastructure:** iOS, Android, REST, Amazon AWS (Lambda, DynamoDB, API Gateway, S3, CloudWatch)
-* **Languages:** Swift, JavaScript, Python, Java, Bash, HTML, CSS, TypeScript
-* **Frameworks & libraries:** Cocoa Touch, Core Data, MapBox, [JSONCache](https://github.com/andersblehr/JSONCache), Wikitude AR, python-geohash, Angular
-* **Database:** AWS DynamoDB (NoSQL)
-* **Tools:** Git/GitLab, Xcode, Atom, Android Studio, QuickDBD, AWS CLI, AWS Toolkit for Eclipse, emulambda, Swagger, Apiary, iTunes Connect, TestFlight
-* **Standards & formats:** HTTP, JSON, CORS
-* **Method:** MVP
-</div>
+{% capture content %}
+###### In brief
+* Chief technical architect
+* Full-stack developer (app, web, API, backend, DB)
+* Sysadmin
+{% endcapture %}
+{% include infobox.html content=content %}
 
 {% capture content %}
 I only took part in the initial MVP phase of this <u>augmented reality concept for product marketing</u>, but the serverless architecture and most of the code I wrote made it through to the final product.
@@ -65,18 +72,23 @@ I only took part in the initial MVP phase of this <u>augmented reality concept f
 {% endcapture %}
 {% include expandable.html content=content %}
 
+{% capture content %}
+* **Languages:** Swift, Objective-C, Python, TypeScript, HTML, CSS
+* **Frameworks & libraries:** Cocoa Touch, Core Data, MapBox, [JSONCache](https://github.com/andersblehr/JSONCache), Wikitude AR, Angular, AWS CLI
+* **Infrastructure:** iOS, Android, REST, Amazon AWS (Lambda, DynamoDB, API Gateway, S3, CloudWatch)
+* **Database:** AWS DynamoDB (NoSQL)
+* **Tools:** Git/GitLab, Xcode, Atom, Android Studio, QuickDBD, AWS CLI, AWS Toolkit for Eclipse, emulambda, Swagger, Apiary, iTunes Connect, TestFlight
+* **Standards & formats:** HTTP, JSON, CORS
+{% endcapture %}
+{% include infobox.html content=content %}
+
 ### Origon &sdot; 2012-2016
 
-<div class="summary-box" markdown="1">
-###### Original idea, all UX, design & development\*
-* **Infrastructure:** iOS, REST, Google App Engine
-* **Languages:** Objective-C, Java
-* **Frameworks & libraries:** Cocoa Touch, Core Data, RESTEasy, JAX-RS, Jackson, Objectify
-* **Database:** Google Cloud Datastore (NoSQL)
-* **Standards & formats:** HTTP, JSON
-* **Tools:** Git, Xcode, Eclipse, Google Plugin for Eclipse, Maven, iTunes Connect, TestFlight
-* **Method:** Continuous refactoring :)
-</div>
+{% capture content %}
+###### In brief
+* Original idea, all UX, design & development\*
+{% endcapture %}
+{% include infobox.html content=content %}
 
 {% capture content %}
 The unifying idea behind this app (iOS only) for <u>shared contact lists</u> ([full feature set](https://origon.co)) is <u>per list data replication</u>: I maintain and give you access to my contact information, and you maintain and give me access to yours. This way, our shared contact lists stay up to date.
@@ -84,35 +96,38 @@ The unifying idea behind this app (iOS only) for <u>shared contact lists</u> ([f
 To enable users to mirror each other's contact information, <u>the app and the backend together constitute a replication framework</u> that seemlessly persists changes from indvidual users and pushes those same changes back out to linked users.
 
 The app is implemented in Objective-C ([code](https://github.com/andersblehr/Origon)), while the backend, implemented in Java ([code](https://github.com/andersblehr/OrigonBackend)), runs serverlessly on Google App Engine and utilises RESTEasy for the replication API and Objectify for object graph persistence in Google Cloud Datastore.
-
-<small><em>\* I no longer maintain Origon, but it's still [available](https://itunes.apple.com/us/app/origon-shared-contact-lists/id988915565) in the App Store, which it will continue to be until it stops working.</em></small>
 {% endcapture %}
 {% include expandable.html content=content %}
 
+{% capture content %}
+* **Languages:** Objective-C, Java
+* **Frameworks & libraries:** Cocoa Touch, Core Data, RESTEasy, JAX-RS, Jackson, Objectify
+* **Infrastructure:** iOS, REST, Google App Engine
+* **Database:** Google Cloud Datastore (NoSQL)
+* **Standards & formats:** HTTP, JSON
+* **Tools:** Git, Xcode, Eclipse, Google Plugin for Eclipse, Maven, iTunes Connect, TestFlight
+* **Method:** Continuous refactoring :)
+{% endcapture %}
+{% include infobox.html content=content %}
+
+<small><em>\* I no longer maintain Origon, but it's still [available](https://itunes.apple.com/us/app/origon-shared-contact-lists/id988915565) in the App Store, which it will continue to be until it stops working.</em></small>
+
 ### Microsoft Development Center Norway &sdot; 2008-2012
 
-<div class="summary-box" markdown="1">
-###### Senior Development Lead; Senior Program Manager
-* **Infrastructure:** Windows Server, SharePoint, .NET, WCF/SOAP, Linux, TCP/IP, IP sockets
-* **Languages:** C#, C++, Java, Python
-* **Framework:** .NET
-* **Database:** SQL Server
-* **Standards & formats:** HTTP, SOAP, WSDL, XML
-* **Tools:** Git, Visual Studio, PowerShell, SharePoint, Product Studio (internal bug tracker), Excel, Remote Desktop
-* **Methods:** Scrum, TDD
-</div>
-
-{% capture content %}
-<u>FAST was acquired by Microsoft in 2008</u>, and after a transition period under the name _FAST, a Microsoft Subsidiary_, we became Microsoft Development Center Norway, an integral part of the Microsoft Office organisation.
+<u>FAST was acquired by Microsoft in 2008</u>, and after a transition period under the name _FAST, a Microsoft Subsidiary_, FAST became Microsoft Development Center Norway, an integral part of the Microsoft Office organisation.
 
 #### 2010-2012: Senior Program Manager
 
+{% capture content %}
 For Search in SharePoint 2013, FAST's <u>next generation search</u>, which had been under development for a few years prior to the acquisition, was <u>ported from Java to .NET and C# and adapted as a SharePoint Service Application</u>, to replace the search options built for SharePoint 2010. I was <u>feature owner for topology management and scaling</u> (provisioning, enablement, disablement and removal of search nodes in the distributed search architecture, and distribution of search components among nodes) and <u>backup & restore of distributed search indices across topologies</u>.
 
 For this, I worked with the local development and test disciplines, and in addition <u>managed a remote team of 10-15 developers and testers</u> in Colombo, Sri Lanka.
+{% endcapture %}
+{% include expandable.html content=content %}
 
 #### 2008-2010: Senior Development Lead
 
+{% capture content %}
 The Office 2010 wave was nearly halfway to completion when Microsoft acquired FAST, which effectively meant that we had less than two years to <u>integrate organisationally</u>, identify and <u>remediate any non-compliant use of open source software</u>, and develop and <u>ship an integrated search solution as part of SharePoint 2010</u>.
 
 I <u>lead a team of highly skilled and fiercely independent developers</u> who had been working on the search core since the very early days of FAST. They were apprehensive about the acquisistion and what it would mean for them and their code, but they put their doubts aside and did their utmost to <u>make the the search core pluggable as a SharePoint Service Application</u>.
@@ -121,29 +136,42 @@ In the period leading up to code freeze ahead of release, I was <u>part of the m
 {% endcapture %}
 {% include expandable.html content=content %}
 
+{% capture content %}
+* **Languages:** C#, C++, Java, Python
+* **Framework:** .NET
+* **Infrastructure:** Windows Server, SharePoint, .NET, WCF/SOAP, Linux, TCP/IP, IP sockets
+* **Database:** SQL Server
+* **Standards & formats:** HTTP, SOAP, WSDL, XML
+* **Tools:** Git, Visual Studio, PowerShell, SharePoint, Product Studio (internal bug tracker), Remote Desktop
+* **Methods:** Scrum, TDD
+{% endcapture %}
+{% include infobox.html content=content %}
+
 ### Fast Search & Transfer (FAST) &sdot; 2005-2008
 
-<div class="summary-box" markdown="1">
-###### Senior Solutions Architect; Director, Solutions Architecture Center EMEA
-* **Product:** FAST Enterprise Search Platform (ESP)
-* **Infrastructure:** Linux, Solaris, AIX, Windows, TCP/IP, IP sockets, RAID, SAN, NAS
-* **Languages:** C++, Python, Java
-* **Standards & formats:** HTTP, XML
-* **Tools:** CVS, Emacs, Vim, VNC, SSH tunneling, Confluence, JIRA, Excel
-</div>
-
-{% capture content %}
 #### 2007-2008: Director, Solution Architecture Center EMEA
 
-In addition to <u>following up on ongoing customer projects</u> and <u>driving the work to establish guidelines and best practices</u> for streamlined and repeatable customer installations, I <u>created <em>ESPedia</em>, a Wikipedia-like collection of technical documents</u> ranging from configuration HOWTOs, via the aforementioned guidelines and best practices, to the inner workings of ESP, <u>written and maintained by myself and other FAST engineers</u>, and with read-only access for certified partners. In addition, I <u>developed an Apache Maven plugin to automate as much as possible of the manual, error prone and often repetitive work</u> that was involved in a typical customer installation of ESP.
+{% capture content %}
+In addition to <u>following up on ongoing customer projects</u> and <u>driving the work to establish guidelines and best practices</u> for streamlined and repeatable customer installations, I <u>created <em>ESPedia</em>, a Wikipedia-like collection of technical documents</u> ranging from configuration HOWTOs, via the aforementioned guidelines and best practices, to the inner workings of ESP, <u>written and maintained by myself and other FAST engineers</u>, and with read-only access for certified partners. In addition, I <u>developed an Apache Maven plugin to automate as much as possible</u> of the manual, error prone and often repetitive work that was involved in a typical customer installation of ESP.
+{% endcapture %}
+{% include expandable.html content=content %}
 
 #### 2005-2007: Senior Solutions Architect, Global Services (GS)
 
-FAST's _Enterprise Search Platform_ (ESP) was a <u>complex product</u> with many moving parts <u>running on anything from a single server to clusters of ten or more of servers</u>. I <u>worked with customers across Europe to build tailored search solutions</u>, including the main Yellow Pages sites in France, Austria, the Baltics, and Norway; information & analytics companies (Reed Elsevier, ProQuest), major newspapers (The Financial Times), major retailers (Carrefour), classifieds (Loot), academic institutions (NTNU), as well as government and municipal organisations (UK Department for Work and Pensions, Hereford County Council).
+{% capture content %}
+FAST's _Enterprise Search Platform_ (ESP) was a <u>fast, scalable, distributed search product</u> with many moving parts <u>running on anything from a single server to clusters of ten or more of servers</u>. I worked with customers across Europe to <u>build tailored search solutions</u>, including the main Yellow Pages sites in France, Austria, the Baltics, and Norway; information & analytics companies (Reed Elsevier, ProQuest), major newspapers (The Financial Times), major retailers (Carrefour), classifieds (Loot), academic institutions (NTNU), as well as government and municipal organisations (UK Department for Work and Pensions, Hereford County Council).
 
-Together with a select group of experienced engineers, I was <u>handpicked to join a newly formed <em>Solution Architecture Center</em></u> within Global Services, whose mandate it was to <u>establish best practices and develop guidelines, support tools and reusable project templates</u> in order to make projects more repeatable from customer to customer.
+Together with a select group of experienced engineers, I was <u>handpicked to join a newly formed <em>Solutions Architecture Center</em></u> within Global Services, whose mandate it was to <u>establish best practices and develop guidelines, support tools and reusable project templates</u> in order to make projects more repeatable from customer to customer.
 {% endcapture %}
 {% include expandable.html content=content %}
+
+{% capture content %}
+* **Product:** FAST Enterprise Search Platform (ESP)
+* **Languages:** C++, Python, Java
+* **Infrastructure:** Linux, Solaris, AIX, Windows, TCP/IP, IP sockets, RAID, SAN, NAS
+* **Tools:** CVS, Emacs, Vim, VNC, SSH tunneling, Confluence, JIRA, Excel
+{% endcapture %}
+{% include infobox.html content=content %}
 
 ### Accenture &sdot; 2001-2005
 

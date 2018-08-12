@@ -23,7 +23,7 @@ permalink: resume
 * Full-stack developer (web, app, API, backend, DB)
 * Technical architect & advisor
 * Advisor to project management
-* Sysadmin
+* Systems operations
 {% endcapture %}
 {% include infobox.html content=content %}
 
@@ -56,7 +56,7 @@ I work with the OCMC Systems group, which develops, maintains and operates web &
 ###### In brief
 * Chief technical architect
 * Full-stack developer (app, web, API, backend, DB)
-* Sysadmin
+* Systems operations
 {% endcapture %}
 {% include infobox.html content=content %}
 
@@ -101,12 +101,11 @@ The app is implemented in Objective-C ([code](https://github.com/andersblehr/Ori
 
 {% capture content %}
 * **Languages:** Objective-C, Java
-* **Frameworks & libraries:** Cocoa Touch, Core Data, RESTEasy, JAX-RS, Jackson, Objectify
+* **Frameworks & libraries:** Cocoa Touch, Core Data, MapKit, Core Location, RESTEasy, JAX-RS, Jackson, Objectify
 * **Infrastructure:** iOS, REST, Google App Engine
 * **Database:** Google Cloud Datastore (NoSQL)
-* **Standards & formats:** HTTP, JSON
 * **Tools:** Git, Xcode, Eclipse, Google Plugin for Eclipse, Maven, iTunes Connect, TestFlight
-* **Method:** Continuous refactoring :)
+* **Standards & formats:** HTTP, JSON
 {% endcapture %}
 {% include infobox.html content=content %}
 
@@ -115,6 +114,13 @@ The app is implemented in Objective-C ([code](https://github.com/andersblehr/Ori
 ### Microsoft Development Center Norway &sdot; 2008-2012
 
 <u>FAST was acquired by Microsoft in 2008</u>, and after a transition period under the name _FAST, a Microsoft Subsidiary_, FAST became Microsoft Development Center Norway, an integral part of the Microsoft Office organisation.
+
+{% capture content %}
+###### In brief
+* Feature owner for topology management, scaling, backup & restore for Search in SharePoint 2013
+* Development lead for for the Enterprise Search core in SharePoint 2010
+{% endcapture %}
+{% include infobox.html content=content %}
 
 #### 2010-2012: Senior Program Manager
 
@@ -149,7 +155,15 @@ In the period leading up to code freeze ahead of release, I was <u>part of the m
 
 ### Fast Search & Transfer (FAST) &sdot; 2005-2008
 
-#### 2007-2008: Director, Solution Architecture Center EMEA
+{% capture content %}
+###### In brief
+* Created collaboration and deployment tools for efficient customer installations of ESP (Enterprise Search Platform)
+* Established guidelines and best practices for streamlined and repeatable customer installations of ESP
+* Built tailored search solutions for customers across Europe
+{% endcapture %}
+{% include infobox.html content=content %}
+
+#### 2007-2008: Director, Solutions Architecture Center EMEA
 
 {% capture content %}
 In addition to <u>following up on ongoing customer projects</u> and <u>driving the work to establish guidelines and best practices</u> for streamlined and repeatable customer installations, I <u>created <em>ESPedia</em>, a Wikipedia-like collection of technical documents</u> ranging from configuration HOWTOs, via the aforementioned guidelines and best practices, to the inner workings of ESP, <u>written and maintained by myself and other FAST engineers</u>, and with read-only access for certified partners. In addition, I <u>developed an Apache Maven plugin to automate as much as possible</u> of the manual, error prone and often repetitive work that was involved in a typical customer installation of ESP.

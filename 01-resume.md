@@ -155,6 +155,8 @@ In the period leading up to code freeze ahead of release, I was <u>part of the m
 
 ### Fast Search & Transfer (FAST) &sdot; 2005-2008
 
+I first returned to FAST in 2004 as a hired consultant from Accenture, working on customer projects with FAST's Global Services organisation. Then in 2005 I formally rejoined FAST.
+
 {% capture content %}
 ###### In brief
 * Created collaboration and deployment tools for efficient customer installations of ESP (Enterprise Search Platform)
@@ -173,7 +175,7 @@ In addition to <u>following up on ongoing customer projects</u> and <u>driving t
 #### 2005-2007: Senior Solutions Architect, Global Services (GS)
 
 {% capture content %}
-FAST's _Enterprise Search Platform_ (ESP) was a <u>fast, scalable, distributed search product</u> with many moving parts <u>running on anything from a single server to clusters of ten or more of servers</u>. I worked with customers across Europe to <u>build tailored search solutions</u>, including the main Yellow Pages sites in France, Austria, the Baltics, and Norway; information & analytics companies (Reed Elsevier, ProQuest), major newspapers (The Financial Times), major retailers (Carrefour), classifieds (Loot), academic institutions (NTNU), as well as government and municipal organisations (UK Department for Work and Pensions, Hereford County Council).
+ESP was a <u>scalable, distributed search offering</u> with many moving parts <u>running on anything from a single to clusters of ten or more servers</u>. I worked with customers across Europe to <u>build tailored search solutions</u>, including the main Yellow Pages sites in France, Austria, the Baltics, and Norway; information & analytics companies (Reed Elsevier, ProQuest), major newspapers (The Financial Times), major retailers (Carrefour), classifieds (Loot), academic institutions (NTNU), as well as government and municipal organisations (UK Department for Work and Pensions, Hereford County Council).
 
 Together with a select group of experienced engineers, I was <u>handpicked to join a newly formed <em>Solutions Architecture Center</em></u> within Global Services, whose mandate it was to <u>establish best practices and develop guidelines, support tools and reusable project templates</u> in order to make projects more repeatable from customer to customer.
 {% endcapture %}

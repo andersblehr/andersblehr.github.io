@@ -5,7 +5,7 @@
 layout: home
 ---
 
-I am an independent developer with over 25 years consulting and IT experience. I have worked as a developer, technical architect, solution architect, project manager, and have held a number of management positions.
+I am an independent software developer with over 25 years consulting and IT experience. I have worked as a developer, technical architect, solution architect, project manager, and have held a number of management positions.
 
 Since 2012 I am again working full time as a developer.
 

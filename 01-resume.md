@@ -16,7 +16,22 @@ permalink: resume
 
 ### Independent developer &sdot; 2016-present
 
-#### 2017-present: Telia Norge
+#### 2018-present: Telenor Digital
+
+I work with the Digital Distribution Technologies team, which develops and maintains APIs that enable Google, Facebook and other service providers to deliver services directly to subscribers across Telenor business units in Asia and Europe.
+
+At present (late 2018), I'm developing an API that bridges from REST via gRPC over to Telenor's Diameter peering network, for subscriber authentication over EAP-AKA.
+
+{% capture content %}
+* **Languages:** Java, Go, Bash
+* **Frameworks & libraries:** Glassfish, gRPC, jDiameter, JUnit
+* **Infrastructure:** Linux, Docker, AWS ECR, AWS EC2, AWS IAM, Nginx, OAuth2, SSH
+* **Tools:** Intellij IDEA, Visual Studio Code, Vim, Wireshark, AWS CLI, Git, GitHub, JIRA, Confluence
+* **Methods:** Scrum, Kanban, TDD
+{% endcapture %}
+{% include infobox.html content=content %}
+
+#### 2017-2018: Telia Norge
 
 {% capture content %}
 ###### In brief
@@ -28,7 +43,7 @@ permalink: resume
 {% include infobox.html content=content %}
 
 {% capture content %}
-I work with the OCMC Systems group, which develops, maintains and operates web & customer portals, mobile apps and internal CRM systems for Telia's [OneCall](https://onecall.no) and [MyCall](https://mycall.no) brands. Key accomplishments:
+I worked with the OCMC Engineering group, which develops, maintains and operates web & customer portals, mobile apps and internal CRM systems for Telia's [OneCall](https://onecall.no) and [MyCall](https://mycall.no) brands. Key accomplishments:
 
 * **Chief architect, lead developer and advisor to project management** on upcoming market offering, MyCall: I <u>architected the overall solution</u> and have been the <u>lead (and mostly sole) developer</u>, covering frontend (PHP/Laravel, JavaScript, CSS/Sass), user authentication and authorisation (OAuth2), service layer (REST, PHP/Laravel, OCI8), data modeling and stored procedures (Oracle, PL/SQL), and third party vendor integration (OAuth2, REST).
 * **Chief architect, developer, lead deployment engineer and advisor to project management** on new web portal, OneCall: I helped <u>enforce improved coding standards</u> (PHP/Laravel), <u>built support for JWT authentication</u> in the service and database layers (JWT, OAuth2, REST, PHP/Laravel, PL/SQL, Oracle), <u>architected and orchestrated the integration of the new web portal with the existing customer portal</u> (vanilla PHP, Smarty), <u>set up the new production servers</u> (RHEL 7.4, Apache 2.4, PHP 7.2, OCI8 and other dependencies) and <u>orchestrated the deployment of web & customer portals, service layer and authentication framework</u> in time for launch.

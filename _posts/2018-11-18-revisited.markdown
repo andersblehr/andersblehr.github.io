@@ -9,7 +9,7 @@ But then on a whim I decided to check the logs for any activity and noticed spur
 
 It took me a few seconds to realise what had happened.
 
-Origon's [backend](https://github.com/andersblehr/origon-backend) runs on Google App Engine (GAE). Back when it launched, the only way to send email from GAE was to create a paid Gmail account with what was then known as Google Apps. So somewhat grudgingly I created an account and got it all working.
+Origon's [backend](https://github.com/andersblehr/origon-backend) runs on Google App Engine (GAE). Back when it launched, the only way to send email from GAE was to create a paid Gmail account with what was then known as Google Apps. So I acquiesced, created an account and got it all working.
 
 Fast forward 3 years to earlier this year.
 

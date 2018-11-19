@@ -7,7 +7,7 @@ I've been revising the structure of this site lately. Extending the [Minima them
 
 I might even submit a pull request, who knows.
 
-I've realised I'm subconsciously afraid to break things. When something's working, everything is in its proper place. To make it behave differently, I must pick it apart &ndash; and only then put back together. I must break it before I can fix it, as it were. So I hesitate. I don't like to break things.
+I've realised I'm subconsciously afraid to break things. When something's working, everything is in its proper place. To make it behave differently, I must pick it apart &ndash; and only then can I put it back together. I must break it before I can fix it, as it were. So I hesitate. I don't like to break things.
 
 But then I come to a point where I just begin. I create a branch, tweak some lines of code here, then some more there, pull it up to see the result, dive back in, and before I've fully realised what's happening, I'm midflight. The only way down is to land this bird.
 

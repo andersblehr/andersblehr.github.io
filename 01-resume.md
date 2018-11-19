@@ -26,7 +26,7 @@ At present (late 2018), I'm developing an API that bridges from REST via gRPC ov
 * **Languages:** Java, Go, Bash
 * **Frameworks & libraries:** Glassfish, gRPC, jDiameter, JUnit
 * **Infrastructure:** Linux, Docker, AWS ECR, AWS EC2, AWS IAM, Nginx, OAuth2, SSH
-* **Tools:** Intellij IDEA, Visual Studio Code, Vim, Wireshark, AWS CLI, Git, GitHub, JIRA, Confluence
+* **Tools:** Intellij IDEA, Visual Studio Code, Vim, Wireshark, AWS CLI, Git, GitHub, Jenkins, JIRA, Confluence
 * **Methods:** Scrum, Kanban, TDD
 {% endcapture %}
 {% include infobox.html content=content %}

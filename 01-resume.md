@@ -23,10 +23,10 @@ I work with the Digital Distribution Technologies team, which develops and maint
 At present (late 2018), I'm developing an API that bridges from REST via gRPC over to Telenor's Diameter peering network, for subscriber authentication over EAP-AKA.
 
 {% capture content %}
-* **Languages:** Java, Go, Bash
-* **Frameworks & libraries:** Glassfish, gRPC, jDiameter, JUnit
-* **Infrastructure:** Linux, Docker, AWS ECR, AWS EC2, AWS IAM, Nginx, OAuth2, SSH
-* **Tools:** Intellij IDEA, Visual Studio Code, Vim, Wireshark, AWS CLI, Git, GitHub, Jenkins, JIRA, Confluence
+* **Languages:** Java, HCL, Bash
+* **Frameworks & libraries:** Glassfish, Protocol Buffers, gRPC, jDiameter, JUnit
+* **Infrastructure:** Linux, Docker, Amazon AWS (EC2, ECR, ...), Nginx, OAuth2, SSH
+* **Tools:** Intellij IDEA, Visual Studio Code, Vim, Wireshark, AWS, Terraform, Git, GitHub, Jenkins, JIRA, Confluence
 * **Methods:** Scrum, Kanban, TDD
 {% endcapture %}
 {% include infobox.html content=content %}

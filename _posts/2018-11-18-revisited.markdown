@@ -34,6 +34,6 @@ It uses Pony to talk to my Postfix MTA over SMTP, and I have configured it to be
 
 I had done very little Ruby programming before this, and all of Sinatra, Passenger and Capistrano were new to me, so there was a certain learning curve involved. Which sort of was the whole point.
 
-As an added bonus, I got to bring both the iOS and backend Java codebases up to date with the latest versions of their respective libraries and frameworks (there's an updated version of Origon [in the App Store](https://itunes.apple.com/us/app/origon-shared-contact-lists/id988915565), who'd've thunk), which in turn helped me refamiliarise myself with the code.
+As an added bonus, I got to bring both the iOS and backend Java codebases up to date with the latest versions of their respective libraries and frameworks (there's an updated version of Origon [in the App Store](https://itunes.apple.com/us/app/origon-shared-contact-lists/id988915565), who'da thunk), which in turn helped me refamiliarise myself with the code.
 
 So there should be much less of a hurdle now, factoring out that replication framework. I should really just get started.

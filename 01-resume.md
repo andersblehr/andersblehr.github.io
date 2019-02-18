@@ -26,7 +26,7 @@ At present (early 2019), I'm developing an API in partnership with Google that b
 * **Languages:** Java, Bash, Python
 * **Frameworks & libraries:** JAX-RS, Protocol Buffers, gRPC, jDiameter, JUnit
 * **Infrastructure:** Linux, Docker, Amazon AWS (EC2, ECR, ...), Nginx, OAuth2, SSH
-* **Tools:** Intellij IDEA, Vim, Wireshark, AWS, Terraform, Git/GitHub Enterprise, Jenkins, JIRA, Confluence
+* **Tools:** Intellij IDEA, Gradle, Vim, Wireshark, AWS, Terraform, Git/GitHub Enterprise, Jenkins, JIRA, Confluence
 * **Methods:** Scrum, Kanban, TDD
 {% endcapture %}
 {% include infobox.html content=content %}

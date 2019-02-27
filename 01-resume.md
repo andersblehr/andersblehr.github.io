@@ -23,7 +23,7 @@ I work with the Digital Distribution Technologies team, which develops and maint
 At present (early 2019), I'm developing an API in partnership with Google that bridges from REST via gRPC over to Telenor's Diameter/SCTP peering network, to facilitate subscriber authentication over EAP-AKA directly from Android.
 
 {% capture content %}
-* **Languages:** Java, Bash, Python
+* **Languages:** Java, Groovy, HCL, Python, Bash
 * **Frameworks & libraries:** JAX-RS, Protocol Buffers, gRPC, jDiameter, JUnit
 * **Infrastructure:** Linux, Docker, Amazon AWS (EC2, ECR, ...), Nginx, OAuth2, SSH
 * **Tools:** Intellij IDEA, Gradle, Vim, Wireshark, AWS, Terraform, Git/GitHub Enterprise, Jenkins, JIRA, Confluence

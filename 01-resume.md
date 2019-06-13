@@ -20,14 +20,14 @@ permalink: resume
 
 I work with the Digital Distribution Technologies team, which develops and maintains APIs that enable Google, Facebook and other service providers to deliver services directly to subscribers across Telenor business units in Asia and Europe.
 
-At present (early 2019), I'm developing an API in partnership with Google that bridges from REST via gRPC over to Telenor's Diameter/SCTP peering network, to facilitate subscriber authentication over EAP-AKA directly from Android.
+At present (mid 2019), I'm finalising an API in partnership with Google that bridges from REST via gRPC over to Telenor's Diameter/SCTP peering network, to facilitate subscriber authentication and phone number verification over EAP-AKA directly from the subscriber's handset.
 
 {% capture content %}
-* **Languages:** Java, Groovy, HCL, Python, Bash
-* **Frameworks & libraries:** JAX-RS, Protocol Buffers, gRPC, jDiameter, JUnit
-* **Infrastructure:** Linux, Docker, Amazon AWS (EC2, ECR, AIM, CodeDeploy, ...), OAuth2, TCP, Diameter/SCTP
-* **Tools:** Intellij IDEA, Gradle, Vim, Wireshark, AWS, Terraform, Jenkins, Git/GitHub Enterprise, JIRA, Confluence
-* **Methods:** Scrum, Kanban, TDD
+* **Languages:** Java, Python, Groovy, HCL, Bash, C, Go
+* **Frameworks & libraries:** JAX-RS, Protocol Buffers, jDiameter, JUnit
+* **Infrastructure:** Amazon AWS, Linux, Kubernetes, Docker, gRPC, TCP, TLS, Diameter/SCTP, OAuth2
+* **Tools:** Intellij IDEA, Wireshark, Gradle, Terraform, Jenkins, Git/GitHub Enterprise, Vim, JIRA, Confluence
+* **Methods:** Scrum, TDD
 {% endcapture %}
 {% include infobox.html content=content %}
 

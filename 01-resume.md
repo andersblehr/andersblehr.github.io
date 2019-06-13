@@ -25,7 +25,7 @@ At present (mid 2019), I'm finalising an API in partnership with Google that bri
 {% capture content %}
 * **Languages:** Java, Python, Groovy, HCL, Bash, C, Go
 * **Frameworks & libraries:** JAX-RS, Protocol Buffers, jDiameter, JUnit
-* **Infrastructure:** Amazon AWS, Linux, Kubernetes, Docker, gRPC, TCP, TLS, Diameter/SCTP, OAuth2
+* **Infrastructure:** Amazon AWS, Linux, Kubernetes, Docker, gRPC, TCP, TLS, Diameter/SCTP, Nginx, OAuth2
 * **Tools:** Intellij IDEA, Wireshark, Gradle, Terraform, Jenkins, Git/GitHub Enterprise, Vim, JIRA, Confluence
 * **Methods:** Scrum, TDD
 {% endcapture %}

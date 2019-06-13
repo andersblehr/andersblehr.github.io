@@ -59,7 +59,7 @@ I worked with the OCMC Engineering group, which was responsible for developing, 
 * **Frameworks & libraries:** Laravel, Symfony, Smarty, GuzzleHttp, jQuery, Node.js, Vue.js, React, Ionic, Angular
 * **Infrastructure:** Linux, Apache, PHP-FPM, OCI8, REST
 * **Database:** Oracle
-* **Tools:** Git/BitBucket Server, PhpStorm, Xdebug, Webpack, Gulp, Toad for Oracle, SQL Developer, JIRA, Confluence, Bamboo, Docker, Vagrant, Vim, Xcode, iTunes Connect
+* **Tools:** PhpStorm, Xdebug, Webpack, Gulp, Toad for Oracle, SQL Developer, Git/BitBucket Server, Bamboo, Docker, Vagrant, JIRA, Confluence, Vim, Xcode, iTunes Connect
 * **Standards & formats:** HTTP, OAuth2, JWT, JSON, CORS
 * **Methods:** Agile, Kanban, TDD, BDD
 {% endcapture %}

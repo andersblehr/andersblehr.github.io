@@ -18,7 +18,7 @@ permalink: resume
 
 #### 2018-present: Telenor Digital
 
-I work with the Digital Distribution Technologies team, which develops and maintains APIs that enable Google, Facebook and other service providers to deliver services directly to subscribers across Telenor business units in Asia and Europe.
+I work with the Digital Distribution Technologies team, which develops, maintains and operates a set of APIs that enable Google, Facebook and other service providers to deliver services directly to subscribers across Telenor business units in Asia and Europe.
 
 At present (mid 2019), I'm finalising an API in partnership with Google that bridges from REST via gRPC over to Telenor's Diameter/SCTP peering network, to facilitate subscriber authentication and phone number verification over EAP-AKA directly from the subscriber's handset.
 
@@ -26,8 +26,8 @@ At present (mid 2019), I'm finalising an API in partnership with Google that bri
 * **Languages:** Java, Python, Groovy, HCL, Bash, C, Go
 * **Frameworks & libraries:** JAX-RS, Protocol Buffers, jDiameter, JUnit
 * **Infrastructure:** Amazon AWS, Linux, Kubernetes, Docker, gRPC, TCP, TLS, Diameter/SCTP, Nginx, OAuth2
-* **Tools:** Intellij IDEA, Wireshark, Gradle, Terraform, Jenkins, Git/GitHub Enterprise, Vim, JIRA, Confluence
-* **Methods:** Scrum, TDD
+* **Tools:** Intellij IDEA, Wireshark, Gradle, Terraform, Jenkins, Git/GitHub, rsyslog, Loggly, Kafka, JIRA, Confluence
+* **Methods:** DevOps, Scrum, TDD
 {% endcapture %}
 {% include infobox.html content=content %}
 
@@ -61,7 +61,7 @@ I worked with the OCMC Engineering group, which was responsible for developing, 
 * **Database:** Oracle
 * **Tools:** PhpStorm, Xdebug, Webpack, Gulp, Toad for Oracle, SQL Developer, Git/BitBucket Server, Bamboo, Docker, Vagrant, JIRA, Confluence, Vim, Xcode, iTunes Connect
 * **Standards & formats:** HTTP, OAuth2, JWT, JSON, CORS
-* **Methods:** Agile, Kanban, TDD, BDD
+* **Methods:** DevOps, Agile, Kanban, TDD
 {% endcapture %}
 {% include infobox.html content=content %}
 

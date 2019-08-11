@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Revisited"
+title:  "I fixed a bug in my app"
 date:   2018-11-18 16:00:00 +0100
 ---
 There's this app I made, [Origon](https://origon.co). Back in July I [wrote](/direction) that I hadn't touched the codebase in years and probably wouldn't again. And I really had no intention to, except from maybe factoring out the replication framework that sits at its heart.

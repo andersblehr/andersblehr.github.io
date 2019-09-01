@@ -25,8 +25,8 @@ At present (mid 2019), I'm finalising an API in partnership with Google that bri
 {% capture content %}
 * **Languages:** Java, Python, Groovy, HCL, Bash, C, Go
 * **Frameworks & libraries:** JAX-RS, Protocol Buffers, jDiameter, JUnit
-* **Infrastructure:** Amazon AWS, Linux, Kubernetes, Docker, gRPC, TCP, TLS, Diameter/SCTP, Nginx, OAuth2
-* **Tools:** Intellij IDEA, Wireshark, Gradle, Terraform, Jenkins, Git/GitHub, rsyslog, Loggly, Kafka, JIRA, Confluence
+* **Technologies:** Amazon AWS, Linux, Docker/Kubernetes, Elasticsearch, gRPC, Diameter/SCTP, Nginx, OAuth2
+* **Tools:** Intellij IDEA, Gradle, Git, Wireshark, Terraform, Jenkins, Loggly, New Relic, Kafka, JIRA, Confluence
 * **Methods:** DevOps, Scrum, TDD
 {% endcapture %}
 {% include infobox.html content=content %}

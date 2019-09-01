@@ -76,14 +76,14 @@ I worked with the OCMC Engineering group, which was responsible for developing, 
 {% include infobox.html content=content %}
 
 {% capture content %}
-I only took part in the initial MVP phase of this <u>augmented reality concept for product marketing</u>, but the serverless architecture and most of the code I wrote made it through to the final product.
+I worked as chief technical architect and full stack developer for a _Pokémon Go_ inspired <u>augmented reality concept for product marketing</u>. Key accomplishments:
 
 * **iOS\* app for augmented reality enhanced product marketing:** The app fetches campaign locations based on the user's current location and lays them out in an interactive, MapBox based map, launching an <u>augmented reality game</u> (implemented in JavaScript\*, bridged via the Wikitude iOS SDK) when the user gets close enough to a location, incrementally persisting the current game status back to the backend, accumulating points and prizes.
 * **Serverless NoSQL REST API:** I <u>defined the data model</u>, <u>set up separate development and production tables on AWS DynamoDB</u>, <u>set up staged serverless AWS Lambda instances</u> and wrote a versioned Lambda handler in Python that handles basic CRUD operations for individual data entities, and also supports <u>optional sideloading of partial or full object graphs</u> rooted at the requested entity or entities. To tie it all together, I documented the corresponding <u>REST endpoints in Swagger</u> and shared them with the team via Apiary, <u>set up staged, endpoint agnostic AWS API Gateway instances and hooked them up to the corresponding AWS Lambda handlers</u>.
 * **Single-page campaign management console:** I <u>wrote a management console</u> in Angular 2+, <u>hosted on AWS S3</u>, that over the same REST API that the app uses <u>lets campaign managers create, update and delete campaigns</u> and locations available for gameplay.
 * **Utilities and libraries:** I wrote a suite of Python and Bash <u>scripts to manage the DynamoDB and Lambda handler instances and deploy to AWS</u> over the AWS CLI, and <u>in my own time I wrote and open sourced</u> a Swift [JSON caching library](https://github.com/andersblehr/JSONCache) that the app utilises to cache data locally (in part based on the replication engine I built for Origon; see below), as well as a [random test data generator](https://github.com/andersblehr/dyndb_random) for DynamoDB tables that I used to generate dummy campaign data during development.
 
-<small><em>* An identical Android app, as well as the shared augmented reality world, were implemented by another team member.</em></small>
+<small><em>* An identical Android app, as well as the shared AR world, were implemented by another team member.</em></small>
 {% endcapture %}
 {% include expandable.html content=content %}
 

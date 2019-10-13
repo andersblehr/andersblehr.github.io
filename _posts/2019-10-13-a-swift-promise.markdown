@@ -54,7 +54,7 @@ So again I decided to roll my own.
 
 I have spent quite some time over the past year and a half practicing and wrapping my head around the underlying principles of functional programming, [first in Haskell](/monads-in-music), and lately in Scala, and I decided that what I needed was a minimal `Promise` type that would let me sequence both asynchronous and synchronous operations that return a `Result`.
 
-I ended up calling it [`ResultPromise`](https://andersblehr.co/JSONCache/Classes/ResultPromise.html). It's only about 40 lines of code, and it let's me rewrite the above example as follows:
+I ended up calling it [`ResultPromise`](https://andersblehr.co/JSONCache/Classes/ResultPromise.html). It's only about 40 lines of code, and it lets me rewrite the above example as follows:
 
 ```swift
 let promise = JSONCache.bootstrap(withModelName: "Bands")
@@ -123,6 +123,6 @@ public class ResultPromise<T, E: Error> {
 
 Admittedly, it's a bit of a lopsided bastard in that its underlying value is embedded in a `Result`, so that `map` in fact `flatMap`s over the `Result`. But this is the sort of thing you get to do when you roll your own: make it do exactly what you need it to do and nothing else. Zero risk of a [`left-pad` debacle](https://www.davidhaney.io/npm-left-pad-have-we-forgotten-how-to-program/).
 
-I may publish it as a gist on GitHub, or maybe in a repo of its own, so it can eveolve. Time will tell. For now, it's [here](https://github.com/andersblehr/JSONCache/blob/master/JSONCache/ResultPromise.swift).
+I may publish it as a gist on GitHub, or maybe in a repo of its own, so it can evolve. Time will tell. For now, it's [here](https://github.com/andersblehr/JSONCache/blob/master/JSONCache/ResultPromise.swift).
 
 Feel free to copy it into your own project if you like it.

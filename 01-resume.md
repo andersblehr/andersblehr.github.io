@@ -22,7 +22,7 @@ I am part of a team that develops and maintains a microservices based architectu
 
 {% capture content %}
 * **Languages:** Java, JavaScript
-* **Frameworks & libraries:** Spring Boot, Hibernate/JPA, React
+* **Frameworks & libraries:** Spring Boot, Hibernate/JPA, Kafka Streams, React
 * **Persistence:** PostgreSQL, Elasticsearch, Cassandra
 * **Technologies:** Amazon AWS, Linux, Docker/Kubernetes, Kafka, GraphQL, OAuth2
 * **Tools:** Intellij IDEA, Gradle, Git, Jenkins, JIRA, Confluence

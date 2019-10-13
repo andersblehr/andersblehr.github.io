@@ -16,11 +16,25 @@ permalink: resume
 
 ### Independent developer &sdot; 2016-present
 
-#### 2018-present: Telenor Digital
+#### 2019-present: Ruter AS
 
-I work with the Digital Distribution Technologies team, which develops, maintains and operates a set of APIs that enable Google, Facebook and other service providers to deliver services directly to subscribers across Telenor business units in Asia and Europe.
+I am part of a team that develops and maintains a microservices based architecture for gathering, processing and visualising live traffic data.
 
-At present (mid 2019), I'm finalising an API in partnership with Google that bridges from REST via gRPC over to Telenor's Diameter/SCTP peering network, to facilitate subscriber authentication and phone number verification over EAP-AKA directly from the subscriber's handset.
+{% capture content %}
+* **Languages:** Java, JavaScript
+* **Frameworks & libraries:** Spring Boot, Hibernate/JPA, React
+* **Persistence:** PostgreSQL, Elasticsearch, Cassandra
+* **Technologies:** Amazon AWS, Linux, Docker/Kubernetes, Kafka, GraphQL, OAuth2
+* **Tools:** Intellij IDEA, Gradle, Git, Jenkins, JIRA, Confluence
+* **Methods:** Agile, DevOps, TDD
+{% endcapture %}
+{% include infobox.html content=content %}
+
+#### 2018-2019: Telenor Digital
+
+I worked with the Digital Distribution Technologies team, which develops, maintains and operates a set of APIs that enable Google, Facebook and other service providers to deliver services directly to subscribers across Telenor business units in Asia and Europe.
+
+In particular, I developed an API in partnership with Google that bridges from REST via gRPC over to Telenor's Diameter/SCTP peering network, to facilitate subscriber authentication and phone number verification over EAP-AKA directly from the subscriber's handset.
 
 {% capture content %}
 * **Languages:** Java, Python, Groovy, HCL, Bash, C, Go

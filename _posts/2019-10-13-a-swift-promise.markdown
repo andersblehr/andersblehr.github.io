@@ -60,13 +60,13 @@ I ended up calling it [`ResultPromise`](https://andersblehr.co/JSONCache/Classes
 
 ```swift
 let promise = JSONCache.bootstrap(withModelName: "Bands")
-    .map { JSONCache.fetchObject(ofType: "Band", withId: "Japan") }
-    .flatMap { object in
+    .then { JSONCache.fetchObject(ofType: "Band", withId: "Japan") }
+    .thenAsync { object in
         let japan = object as! Band
         japan.otherNames = "Rain Tree Crow"
         return ServerProxy.update(band: japan.toJSONDictionary())
     }
-    .map { JSONCache.save() }
+    .then { JSONCache.save() }
 
 promise.await { result in
     switch result {
@@ -98,7 +98,7 @@ public class ResultPromise<T, E: Error> {
         result.map(observer)
     }
 
-    public func map<U>(_ f: (@escaping (T) -> Result<U, E>)) -> ResultPromise<U, E> {
+    public func then<U>(_ f: (@escaping (T) -> Result<U, E>)) -> ResultPromise<U, E> {
         let promise = ResultPromise<U, E>()
         await { result in
             promise.fulfil(with: result.flatMap(f))
@@ -106,7 +106,7 @@ public class ResultPromise<T, E: Error> {
         return promise
     }
 
-    public func flatMap<U>(_ f: (@escaping (T) -> ResultPromise<U, E>)) -> ResultPromise<U, E> {
+    public func thenAsync<U>(_ f: (@escaping (T) -> ResultPromise<U, E>)) -> ResultPromise<U, E> {
         let promise = ResultPromise<U, E>()
         await { result in
             switch result {
@@ -123,10 +123,6 @@ public class ResultPromise<T, E: Error> {
 }
 ```
 
-Admittedly, it's a bit of a lopsided bastard in that its underlying value is embedded in a `Result`, so that `map` in fact `flatMap`s over the `Result`. (But for all I know, such a 'transitive functor' has already been invented.)
-
 This is the beauty of rolling your own: You get to make it do exactly what you need it to do and nothing else. Zero risk of a [`left-pad` debacle](https://www.davidhaney.io/npm-left-pad-have-we-forgotten-how-to-program/).
 
 Feel free to copy it into your own project. I may publish it as a gist on GitHub, or maybe in a repo of its own, so it can evolve. Time will tell. For now, it's [here](https://github.com/andersblehr/JSONCache/blob/master/JSONCache/ResultPromise.swift).
-
-**Tip:** If you find the `map` / `flatMap` names uninformative, you can rename them as you like; for instance `then` for `map` and `thenAsync` for `flatMap`.

@@ -3,7 +3,7 @@ layout: post
 title:  "A Swift promise"
 date:   2019-10-13 15:31:00 +0200
 ---
-I mentioned my intention of factoring out [Origon](https://origon.co)'s replication framework in a [previous post](/i-fixed-a-bug-in-my-app). The thing is, it's not really a framework _per se_, more like a distributed algorithm with constituent parts running on both the server and on any number of clients. So factoring it out, as it were, is more a question of generalising it. And no, I have yet got around to generalising it in any meaningful way.
+I mentioned my intention of factoring out [Origon](https://origon.co)'s replication framework in a [previous post](/i-fixed-a-bug-in-my-app). The thing is, it's not really a framework _per se_, more like a distributed algorithm with constituent parts running on both the server and on any number of clients. So factoring it out, as it were, is more a question of generalising it. And no, I haven't yet got around to generalising it in any meaningful way.
 
 But as it turns out, parts of it already exist in the open. Back in early 2017, I was working on the iOS side of an MVP app project, and I was blocked by a [bug](https://github.com/3lvis/Sync/issues/373) in the [Sync](https://github.com/3lvis/Sync) library we were using to cache backend data on the device. The bug didn't get the attention we required, so to get out of the impasse, I decided to roll my own, based on the client portion of Origon's replication algorithm.
 
@@ -44,9 +44,7 @@ JSONCache.bootstrap(withModelName: "Bands") { result in
 
 There's nothing special going on here. The Core Data stack is bootstrapped, an object is fetched, modified and persisted back to the backend and then to Core Data.
 
-But there's a strong smell. The [pyramid of doom](https://en.wikipedia.org/wiki/Pyramid_of_doom_(programming)) as the callback stack unwinds is quite pronounced, and on every stack pop there's the same error handling taking place.
-
-I knew this was a smell already when I wrote it, but I was unsure how to address it.
+But there's a strong smell. The [pyramid of doom](https://en.wikipedia.org/wiki/Pyramid_of_doom_(programming)) as the callback stack unwinds is quite pronounced, and on every stack pop there's the same error handling taking place. I knew this was a smell already when I wrote it, but I was unsure how to address it.
 
 However, in the meantime I have been working quite a lot with asynchronous programming. I have worked with [promises](https://en.wikipedia.org/wiki/Futures_and_promises) in TypeScript and Java (where they're called `CompletableFuture`), and Scala has a plethora of async libraries to choose from. On the Swift side, [PromiseKit](https://github.com/mxcl/PromiseKit) is perhaps the most well known, but there's a few others as well.
 

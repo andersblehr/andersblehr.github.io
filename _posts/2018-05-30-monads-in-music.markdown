@@ -94,9 +94,9 @@ class Monoid m where
 
 Monoids must follow the _monoid laws_:
 
-- ``mempty `mappend` x = x``
-- ``x `mappend` mempty = x``
-- ``(x `mappend` y) `mappend` z = x `mappend` (y `mappend` z)``
+1. ``mempty `mappend` x = x``
+2. ``x `mappend` mempty = x``
+3. ``(x `mappend` y) `mappend` z = x `mappend` (y `mappend` z)``
 
 where `mempty` is the identify. List and `Ordering` instances:
 

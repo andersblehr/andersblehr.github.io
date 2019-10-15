@@ -46,7 +46,7 @@ There's nothing special going on here. The Core Data stack is bootstrapped, an o
 
 But there's a strong smell. The [pyramid of doom](https://en.wikipedia.org/wiki/Pyramid_of_doom_(programming)) as the callback stack unwinds is quite pronounced, and on every stack pop there's the same error handling taking place. I knew this was a smell already when I wrote it, but I was unsure how to address it.
 
-However, in the meantime I have been working quite a lot with asynchronous programming. I have worked with [promises](https://en.wikipedia.org/wiki/Futures_and_promises) in TypeScript and Java (where they're called `CompletableFuture`), and Scala has a plethora of async libraries to choose from. On the Swift side, [PromiseKit](https://github.com/mxcl/PromiseKit) is perhaps the most well known, but there's a few others as well.
+However, in the meantime I have been working quite a lot with asynchronous programming. I have worked with [promises](https://en.wikipedia.org/wiki/Futures_and_promises) in TypeScript and Java (where they're called `CompletableFuture`), and Scala has a plethora of async libraries to choose from. On the Swift side, [PromiseKit](https://github.com/mxcl/PromiseKit) is perhaps the most well known, and there's a few others as well.
 
 The thing is, however, that after having cut the dependency to [Antitypical's `Result`](https://github.com/antitypical/Result) library once Swift 5 came with native `Result` support, I was hesitant to pull in another heavy dependency that I'd probably only need a tiny portion of.
 

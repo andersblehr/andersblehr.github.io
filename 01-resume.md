@@ -21,12 +21,12 @@ permalink: resume
 I am part of a team that develops and maintains a microservices based architecture for gathering, processing and visualising live traffic data.
 
 {% capture content %}
-* **Languages:** Java, JavaScript
+* **Languages:** Java, Kotlin, Groovy, JavaScript
 * **Frameworks & libraries:** Spring Boot, Hibernate/JPA, Kafka Streams, React
-* **Persistence:** PostgreSQL, Elasticsearch, Cassandra
-* **Technologies:** Amazon AWS, Linux, Docker/Kubernetes, Kafka, GraphQL, OAuth2
+* **Persistence:** PostgreSQL, Cassandra, Elasticsearch
+* **Technologies:** Amazon AWS, Kubernetes, Linux, Kafka, GraphQL
 * **Tools:** Intellij IDEA, Gradle, Git, Jenkins, JIRA, Confluence
-* **Methods:** Agile, DevOps, TDD
+* **Methods:** Agile, DevOps, Domain Driven Design, TDD
 {% endcapture %}
 {% include infobox.html content=content %}
 

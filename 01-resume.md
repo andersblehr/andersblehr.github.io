@@ -18,7 +18,7 @@ permalink: resume
 
 #### 2019-present: Ruter AS
 
-I am part of a team that develops and maintains a microservices based architecture for gathering, processing and visualising live traffic data.
+I am part of a team that develops and maintains an event driven microservices architecture for gathering, processing and visualising live traffic data.
 
 {% capture content %}
 * **Languages:** Java, Kotlin, Groovy, JavaScript

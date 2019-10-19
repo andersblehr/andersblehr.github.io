@@ -22,7 +22,7 @@ I am part of a team that develops and maintains an event driven microservices ar
 
 {% capture content %}
 * **Languages:** Java, Kotlin, Groovy, JavaScript
-* **Frameworks & libraries:** Spring Boot, Hibernate/JPA, Kafka Streams, React
+* **Frameworks & libraries:** Spring Boot, Hibernate/JPA, Kafka Streams, Kafka Connect, React
 * **Persistence:** PostgreSQL, Cassandra, Elasticsearch
 * **Technologies:** Amazon AWS, Kubernetes, Linux, Kafka, GraphQL
 * **Tools:** Intellij IDEA, Gradle, Git, Jenkins, JIRA, Confluence

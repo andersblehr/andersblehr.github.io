@@ -3,7 +3,7 @@ layout: post
 title:  "A Swift promise"
 date:   2019-10-13 15:31:00 +0200
 ---
-I mentioned my intention of factoring out [Origon](https://origon.co)'s replication framework in a [previous post](/i-fixed-a-bug-in-my-app). The thing is, it's not really a framework _per se_, more like a distributed algorithm with constituent parts running on both the server and on any number of clients. So factoring it out, as it were, is more a question of generalising it. And no, I haven't yet got around to generalising it in any meaningful way.
+In a [previous post](/i-fixed-a-bug-in-my-app), I mentioned my intention of factoring out [Origon](https://origon.co)'s replication framework. The thing is, it's not really a framework _per se_, more like a distributed algorithm with constituent parts running on both the server and on any number of clients. So factoring it out, as it were, is more a question of generalising it. And no, I haven't yet got around to generalising it in any meaningful way.
 
 But as it turns out, parts of it already exist in the open. Back in early 2017, I was working on the iOS side of an MVP app project, and I was blocked by a [bug](https://github.com/3lvis/Sync/issues/373) in the [Sync](https://github.com/3lvis/Sync) library we were using to cache backend data on the device. The bug didn't get the attention we required, so to get out of the impasse, I decided to roll my own, based on the client portion of Origon's replication algorithm.
 

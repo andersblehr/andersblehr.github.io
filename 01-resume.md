@@ -25,12 +25,11 @@ I work as solution architect, tech lead and full-stack developer on a team that 
 microservices architecture for processing, monitoring and visualising live and historic public transport data.
 
 {% capture content %}
-* **Languages:** Java, Kotlin, TypeScript, SQL
-* **Frameworks & libraries:** Spring Boot, Kafka Streams, Reactive Streams (Reactor), React, Hibernate/JPA, Apollo
-GraphQL, JetBrains Exposed, JUnit
-* **Persistence:** PostgreSQL, Elasticsearch, Cassandra
-* **Technologies:** Amazon AWS, Kubernetes, Docker, Linux, Kafka, REST, GraphQL
-* **Tools:** Gradle, Git, GitLab CI/CD, Prometheus, Grafana, Datadog, JIRA, Confluence
+* **Languages:** Kotlin, Java, TypeScript, Python, SQL
+* **Frameworks & libraries:** Spring Boot, Kafka Streams, Reactive Streams (Reactor), React, Hibernate/JPA, Apollo GraphQL, JetBrains Exposed, JUnit
+* **Persistence:** PostgreSQL, Snowflake, Elasticsearch, Cassandra, S3
+* **Technologies:** Amazon AWS, Kubernetes, Docker, Linux, Kafka, REST, WebSocket, GraphQL
+* **Tools:** IntelliJ IDEA, Gradle, Git, GitLab CI/CD, Terraform, Datadog, Prometheus, Grafana, JIRA, Confluence
 * **Methods:** DevOps, Scrum, Kanban, Domain Driven Design, TDD
 {% endcapture %}
 {% include infobox.html content=content %}
